@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+   
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.img{
+    width: 100px;
+}
+ul{
+
+  list-style: none;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+
+
+}
+ul li{
+    margin-right: 40px;
+}
+.search{
+    text-align: center;
+    width: 130px;
+    padding: 5px 2px;
+    border: 2px solid #5f5e5e;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #5f5e5e;
+}
+li:first-child{
+    font-weight: bold;
+    text-decoration: underline;
+}
+#search_icon{
+  
+   margin-bottom: -5px;
+    width: 20px;
+    height: 20px;
+}
+main{
+    display: flex;
+    margin-top: 50px;
+}
+.left_div{
+    margin-top: 60px;
+}
+.square{
+  width: 15em;
+  margin-left: 210px;
+  margin-top: 195px;
+}
+.image_main{
+   width: 20em;
+   position: absolute;
+   margin-left: -370px;
+}
+.right_div{
+
+    width: 100%;
+}
+.globDiv{
+ 
+    width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.globDiv>img:first-child{
+    width: 60px;
+    height: 60px;
+}
+.globDiv>img:last-child{
+    width: 50px;
+    height: 50px;
+    margin-top: 45px;
+}
+.textDiv{
+ 
+    width: 82%;
+   
+    text-align: center;
+   margin: auto;
+}
+.textDiv>h1{
+    font-size: 55px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.textDiv>p{
+
+    width: 80%;
+    margin: auto;
+    color: gray;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+ 
+}
+.input_div{
+    text-align: center;
+    margin-top: 70px;
+}
+.input_div>input:first-child{
+    width: 150px;
+    text-align: center;
+    margin-right: 15px;
+    border: 2px solid rgb(104, 104, 104);
+    border-radius: 10px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}
+.input_div>input:last-child{
+    background-color: black;
+    color:white;
+    padding: 01px 5px;
+    border-radius: 7px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.social_handle{
+  
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    color: #5e5d5d;
+    font-weight: bold;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+}
+.logoes>img{
+    width: 25px;
+    padding: 0 7px;
+}
+.last_png{
+    width: 35px;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 60px;
+}
