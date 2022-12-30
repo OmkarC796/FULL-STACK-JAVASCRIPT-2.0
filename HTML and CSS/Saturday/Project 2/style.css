@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(./images/stethoscope.png) no-repeat center center fixed;
+    background-size: 80vh;
+
+
+}
+
+#navbar{
+    width: 87%;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo_div>img{
+    width: 150px;
+}
+.menu_div{
+  width: 380px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li{
+    list-style: none;
+    font-weight: 550;
+    font-size: 14px;
+
+}
+ul li:first-child{
+color: rgb(8, 212, 8);
+}
+
+.main{
+    width: 87%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left_div{
+
+width: 51%;
+align-content: center;
+}
+.left_div>h1{
+
+    font-size: 64px;
+}
+.left_div>p{
+    color: #808080;
+}
+.topAngle{
+    width: 20px;
+   }
+.bottomAngle{
+ position: relative;
+ left: 86vh;
+ width: 20px;
+}
+.bottom_div{
+    margin-top: -5px;
+}
+
+.button{
+    border: none;
+    background-color:#0abc6c;
+    border-radius: 18px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    
+}
+.mouse{
+    margin-left: 33rem;
+    position: absolute;
+    left: 12vh;
+    width: 25px;
+
+}
+.right_div{
+width: 50%;
+margin-top: 20px;
+}
+.greenBox{
+    width: 55%;
+    left: 39vh;
+    position: relative;
+}
+.yellowBox{
+width: 45%;
+left: 49vh;
+top: -24rem;
+position: relative;
+}
+.doctor{
+width: 50%;
+position: relative;
+right: -2vh;
+top: -21rem;
+}
