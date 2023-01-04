@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#topBg_div{
+    background-image: url(./images/photos/futuristic-bg.png);
+background-size: cover;
+padding: 30px 90px;
+font-family: sans-serif;
+}
+
+nav{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo_div{
+
+    display: flex;
+}
+
+ul{
+
+    display: flex;
+    list-style: none;
+    margin-left: 80px;
+    font-size: small;
+}
+li{
+    padding-right: 30px;
+}
+.register_div{
+    font-size: small;
+}
+.register_div>button:first-child{
+   background: none;
+   color:white;
+}
+.register_div>button:last-child{
+    background-color: #f7612a;
+    padding: 10px 25px;
+    margin-left: 10px;
+    color:white;
+}
+.get_started{
+    display: flex;
+    justify-content: space-between;
+   color: white;
+   margin-top: 100px;
+   margin-bottom: 30px;
+
+}
+.startedBtn_div{
+    display: flex;
+    margin-top: 47px;
+  
+
+}
+.startedBtn_div>button:first-child{
+    background-color: #f7612a;
+    border: 1px solid #f7612a;
+    color: white;
+    padding: 15px 40px;
+    margin-right: 20px;
+    
+}
+.startedBtn_div>button:last-child{
+   border: 1px solid white;
+   color: white;
+   background: none;
+   border: 1px solid white;
+   padding: 15px 40px;
+  
+}
+.firstH1{
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 65px;
+}
+.left_div>p{
+    font-size: small;
+    line-height: 25px;
+    color: rgb(165, 163, 163);
+    
+}
+.right_div{
+
+margin-top: 115px;
+}
+
+.right_div>img{
+    width: 12vh;
+    margin-left: 20px;
+    background-color: rgb(54, 1, 1);
+    border-radius: 100%;
+}
+
+.bottom_arr{
+    display: flex;
+
+    font-size:17px;
+    margin-top: 120px;
+    margin-right: px;
+}
+.bottom_arr>hr{
+    transform: rotate(90deg);
+    background-color: white;
+    height: 40px;
+    margin-right: 40px;
+}
+.bottom_arr>img{
+       margin-left: 20px; 
+}
+main{
+    padding: 0 90px;
+}
+.categories{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, auto);
+ 
+    margin: auto;
+    border: 1px solid;
+    
+
+}
+.cards{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.cards>img{
+width: 95%;
+height: 300px;
+object-fit: cover;
+}
