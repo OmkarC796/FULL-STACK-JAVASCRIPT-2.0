@@ -139,3 +139,20 @@ width: 95%;
 height: 300px;
 object-fit: cover;
 }
+.first_img{
+   width: 80%;
+   height: 350px;
+   object-fit: cove;
+
+   object-position: 78% 15%;
+}
+.desc{
+    position: relative;
+    margin-top: -118px;
+    transition: ;
+    width: 93%;
+    border: 2px solid gray;
+    display: flex;
+    align-items: center;
+    background:linear-gradient(skyblue, yellow, green);
+}
