@@ -211,12 +211,15 @@ object-fit: cover;
 }
 .two>p{
     color: gray;
+    margin-bottom: 40px;
+
 }
 .two>div>button:first-child{
     background-color: #f7612a;
     border: none;
     color: white;
     padding: 15px 30px;
+    border: 1px solid #f7612a;
 }
 .two>div>button:last-child{
     background-color: transparent;
@@ -224,4 +227,63 @@ object-fit: cover;
     color: #f7612a;
     padding: 15px 30px;
     box-shadow: #f7612a;
+    margin-left: 15px;
+}
+.pagintion{
+
+    margin-top: 140px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pagintion>h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    line-height: 57px;
+}
+.pagintion_img>img:first-child{
+    background-color: #f0d5cb;
+    padding: 22px 15px;
+}
+.pagintion_img>img:last-child{
+    background-color: #f7612a;
+    padding: 22px 15px;
+}
+
+.last_second{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 43vh);
+    gap: 70px;
+}
+.next_cards{
+    display: flex;
+    border: 1px solid red;
+   overflow: hidden;
+         
+}
+.img_d > img{
+    width: 36vh;
+    margin-right: 25px;
+}
+.text_d{
+    font-family: sans-serif;
+}
+.text_d>h4{
+    color: #f7612a;
+}
+.text_d>p{
+    color: gray;
+    font-size: 14px;
+    line-height: 25px;
+
+}
+.text_d>button{
+max-width: 100%;
+    border: none;
+    background-color: #f7612a;
+    color: white;
+    padding: 15px 35px;
+    font-weight: 600;
 }
