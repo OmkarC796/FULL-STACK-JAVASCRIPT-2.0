@@ -114,7 +114,14 @@ margin-top: 115px;
        margin-left: 20px; 
 }
 main{
-    padding: 0 90px;
+    padding: 120px 90px;
+}
+main>h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 60px;
+    font-family: sans-serif;
 }
 .categories{
     display: grid;
@@ -122,7 +129,7 @@ main{
     grid-template-rows: repeat(1, auto);
  
     margin: auto;
-    border: 1px solid;
+
     
 
 }
@@ -146,13 +153,75 @@ object-fit: cover;
 
    object-position: 78% 15%;
 }
+
 .desc{
+    font-family: sans-serif;
     position: relative;
-    margin-top: -118px;
-    transition: ;
-    width: 93%;
-    border: 2px solid gray;
+    margin-top: -96px;
+    background-color:black;
+    width: 95%;
     display: flex;
     align-items: center;
-    background:linear-gradient(skyblue, yellow, green);
+    color: white;
+    background: transparent;
+    backdrop-filter: blur(20px);
+
+     border: 1px transparent;
+    justify-content: space-around;
+    
+}
+.name{
+    font-family: sans-serif;
+   
+}
+.name>h4{
+
+   margin-top: 12px;
+   font-family: sans-serif;
+ 
+}
+.name>p{
+    color: rgb(177, 169, 169);
+   margin-top: -12px;
+   margin-bottom: 7px;
+}
+.rating{
+    margin-bottom: 12px;
+}
+.btnDiv>button{
+    background-color: #f7612a;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: white;
+}
+.main_third{
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+}
+.one>img{
+    width: 75vh;
+    height: 60vh;
+}
+.two>h1{
+   font-size: 40px;
+   font-family: sans-serif;
+   
+}
+.two>p{
+    color: gray;
+}
+.two>div>button:first-child{
+    background-color: #f7612a;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+}
+.two>div>button:last-child{
+    background-color: transparent;
+    border: 1px solid #f7612a;
+    color: #f7612a;
+    padding: 15px 30px;
+    box-shadow: #f7612a;
 }
