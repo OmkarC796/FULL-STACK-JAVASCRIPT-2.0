@@ -259,8 +259,8 @@ object-fit: cover;
 }
 .next_cards{
     display: flex;
-    border: 1px solid red;
-   overflow: hidden;
+ 
+    overflow: hidden;
          
 }
 .img_d > img{
@@ -287,3 +287,34 @@ max-width: 100%;
     padding: 15px 35px;
     font-weight: 600;
 }
+#last_div{
+    background-color: #000000;
+    padding: 120px 90px;
+}
+
+.h1_d>h1{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+.img_text{
+    display: flex;
+    justify-content: flex-start;
+    gap:30px;
+   
+}
+.text_imgg>p{
+    color: gray;
+}
+.imgg>img{
+    width: 300px;
+}
+
+.img1{
+    width: 240px;
+    margin-right: 30px;
+}
+
+
+        
