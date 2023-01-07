@@ -1,0 +1,7 @@
+#main_bg{
+    background-image: url(./images/photos/mainBackground.png);
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+}
