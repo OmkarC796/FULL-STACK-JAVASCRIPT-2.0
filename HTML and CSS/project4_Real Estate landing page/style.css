@@ -10,13 +10,14 @@ body{
 nav{
   display: flex;
   justify-content: space-between;
-  border: 1px solid;
   align-items: center;
   margin-bottom: 30px;
+  width: auto;
 }
 ul{
+
     list-style: none;
-    color: white;
+    color: whit;
     display: flex;
     font-family: sans-serif;
     
@@ -49,15 +50,28 @@ li{
     margin-top: 10px;
 }
 .log_div{
-    border: 1px solid red;
+
     display:flex;
     justify-content: space-around;
     background-color: #ffffff ;
     padding: 50px;
-    border-radius: 100px;
+    border-radius: 30px;
     position: relative;
     top: 100px;
 }
 .log_div>img{
     width: 120px;
+}
+.first{
+    display: flex;
+    border: 1px solid;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.first>div>img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
 }
