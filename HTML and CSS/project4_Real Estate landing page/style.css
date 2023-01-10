@@ -159,7 +159,7 @@ top: 30px;
     #after_main{
          border: 1px solid red;
          display: flex ;
-         justify-content: space-between;
+         justify-content: flex-start;
     }
     .after_mainLeft>img:first-child{
         width: 100vh;
@@ -175,6 +175,29 @@ top: 30px;
         top: -115vh;
         border-radius: 30px;
 
+    }
+    
+    .after_mainRight{
+        border: 1px solid red;
+    }
+    .after_mainRight>h1{
+
+    
+    }
+
+    .after_mainRight>p{
+    
+    }
+
+    .after_mainRight>button{
+    
+        background-color: #5e5ef8;
+        border: none; 
+        padding: 15px 30px;
+        border-radius: 50px;
+        color: white;
+        font-family: sans-serif;
+        font-weight: 700;
     }
 
 
