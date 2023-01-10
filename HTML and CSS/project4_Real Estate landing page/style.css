@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #e4e2e2;
 }
 #main_bg{
     background-image: url(./images/photos/mainBackground.png);
@@ -65,7 +66,7 @@ li{
 .first, .second, .third{
     width: auto;
     display: flex;
-    border: 1px solid red;
+ 
     justify-content: center;
     gap: 15px;
     margin-top: 100px;
@@ -113,7 +114,7 @@ top: 30px;
             top: 60px;
         }
     .inside_one{
-        border: 1px solid red;
+   
         width: 85%;
         margin: auto;
         display: flex;
@@ -128,30 +129,52 @@ top: 30px;
     }
 
     .inside_left{
-       border: 1px solid blue;
+
        align-items: center;
         margin: 0;
         padding: 0;
-        padding-top: 0px;   
+        padding-top: 0px;  
+        font-family: sans-serif; 
     }
    
     .inside_left>h2{
         margin-top: 0px;
         margin-bottom: 0px;
-       border: 1px solid red;
+
     }
 
     .inside_left>h3{
-        border: 1px solid red;
+ 
         margin-bottom: 0px;
+        color: #5e5ef8;
     }
 
     .inside_right>button{
-       background-color: rgb(81, 81, 247);
+       background-color: #5e5ef8;
        border: none; 
        padding: 15px 30px;
        border-radius: 50px;
        color: white;
+    }
+    #after_main{
+         border: 1px solid red;
+         display: flex ;
+         justify-content: space-between;
+    }
+    .after_mainLeft>img:first-child{
+        width: 100vh;
+        height: 130vh;
+      
+    }
+
+    .after_mainLeft>img:last-child{
+        width: 71.9vh;
+        height: 70vh;
+        position:relative;
+        left: 19.7vh;
+        top: -115vh;
+        border-radius: 30px;
+
     }
 
 
