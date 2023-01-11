@@ -225,5 +225,65 @@ top: 30px;
         font-size: 15px;
     }
 
+    #after_main2{
+
+        display: flex ;
+        justify-content:right;
+        gap: 50px;
+        align-items: center;
+   }
+   .after_main2Left{
+border: 1px solid red;
+       width: 45%;
+       height: 113vh;
+   }
+   .after_main2Right>img:first-child{
+       width: 100vh;
+       height: 130vh;
+     
+   }
+
+   .after_main2Right>img:last-child{
+       width: 71.9vh;
+ 
+       height: 70vh;
+       position:relative;
+       left: 19.7vh;
+       top: -115vh;
+       border-radius: 50px;
+
+   }
+   
+   .after_main2Right{
+    border: 1px solid red;
+       width: 50%;
+   }
+   .after_main2Left>h1{
+    font-size: 50px;
+    font-family: sans-serif;
+   
+   }
+
+   .after_main2Left>p{
+       color: #817f7f;
+       line-height: 25px;
+       
+   
+   }
+
+   .after_main2Left>button{
+   
+       background-color: #5e5ef8;
+       border: none; 
+       padding: 18px 45px;
+       border-radius: 50px;
+       color: white;
+       font-family: sans-serif;
+       font-weight: 700;
+       margin-top: 30px;
+       font-weight: 600;
+       font-size: 15px;
+   }
+
    
 
