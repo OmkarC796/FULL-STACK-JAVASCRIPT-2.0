@@ -280,6 +280,11 @@ top: 30px;
         margin-top: 30px;
         font-weight: 600;
         font-size: 15px;
+        transition: 0.5s;
+    }
+    .after_mainRight>button:hover{
+        cursor: pointer;
+        transform: scale(1.2);
     }
 
     #after_main2{
@@ -342,8 +347,13 @@ top: 30px;
        font-weight: 700;
        margin-top: 30px;
        font-weight: 600;
-       font-size: 15px;
-   }
+       transition: 0.5s;
+    }
+    .after_main2Left>button:hover{
+        /* cursor: pointer; */
+        transform: scale(1.2);
+        cursor:grab;
+    }
    #blue_div{
     background-color: #5e5ef8;
     text-align: center;
