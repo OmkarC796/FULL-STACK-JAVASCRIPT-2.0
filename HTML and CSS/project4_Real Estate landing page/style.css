@@ -396,6 +396,16 @@ top: 30px;
     font-size: 15px;
     border-radius: 25px;
     margin-left: 15px;
+    transition: 0.5s;
+}
+#blue_div>div>button:hover{
+
+    background-color: #0a7c69;
+    color: #ffffff;
+    cursor: pointer;
+    
+    transform: scale(1.1);
+
 }
 #blue_div>div>img{
     position: relative;
@@ -415,6 +425,7 @@ footer{
 }
 .f_logo{
     width: 27vh;
+    cursor: pointer;
 }
 .social>img{
     width: 40px;
@@ -422,10 +433,26 @@ footer{
     margin-right: 25px;
     margin-top: 25px;
     margin-bottom: 20px;
+    border-radius: 100%;  
+}
+
+
+.social>img:first-child:hover{
+    cursor:alias;
+    background-color: #0d05f7;
+}
+.social>img:nth-child(2):hover{
+    cursor:alias;
+    background-color: rgb(0, 168, 246);
+}
+.social>img:last-child:hover{
+    cursor:alias;
+    background-color: #aa05f7;
 }
 footer>div>p{
     line-height: 30px;
     font-family: sans-serif;
+    color: gray;
 
 }
 
@@ -442,11 +469,18 @@ footer>div>p{
    color: #06064a;
    font-weight: 700;
    margin-bottom: 30px;
+   cursor: default;
 }
 .pTags>div>p{
     font-size: 15px;
     margin-bottom: 20px;
+    color: gray;
+    cursor: pointer;
 }
+.pTags>div>p:hover{
+    color: #c686c6;
+}
+
 
 
    
