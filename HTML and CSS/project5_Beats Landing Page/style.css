@@ -334,5 +334,69 @@ menu>button{
 
 footer{
     display: flex;
-    
+    margin: auto;
+    border: 1px solid red;
+    justify-content: right;
+    gap: 90px;
+    margin-top: 100px;
+
 }
+.first_p{
+    color: #ffffff;
+    font-size: small;
+}
+.first_p>p:first-child{
+     font-size:medium;
+     font-weight: 600;
+}
+.second_p{
+    color: #ffffff;
+    font-size: small;
+}
+.second_p>p:first-child{
+    font-size:medium;
+    font-weight: 600;
+}
+.social>div{
+    display: flex;
+}
+.social>div>div{
+    position: relative;
+    left: -130px;
+    top: 5px;
+}
+
+.social>div>input{
+    padding: 15px;
+    width: 250px;
+    margin-bottom: 20px;
+    background-color: #1a1a1a;
+    border: none;
+    border-radius: 4px;
+}
+.social>div>div>button{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 8px 10px 8px 30px;
+    border-radius: 4px;
+}
+.social>div>div>img{
+    width: 15px;
+    position: relative;
+    left: 30px;
+    top: 2px;
+}
+.link_icons{
+   margin-top: 5px;
+    gap: 15px;
+}
+
+.upArrow{
+    margin-top: 60px;
+}
+/* .beats>img:first-child{
+    position: relative;
+    top: 40px;
+    left: -50px;
+   
+} */
