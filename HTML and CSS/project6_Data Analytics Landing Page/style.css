@@ -6,24 +6,31 @@ body{
 }
 
 nav{
-    border: 2px solid black;
+
     display: flex;
     justify-content: space-around;
+    width: 86%;
+    margin: auto;
+    margin-top: 30px;
   
 }
 
 .menu{
     width: 40%;
-    border: 1px solid red;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.logo{
+    cursor: pointer;
+}
+
 ul{
     width: 65%;
     padding-left: 0;
-    border: 1px solid blue;
+
     display: flex;
     list-style: none;
     justify-content: space-between;
@@ -39,9 +46,15 @@ li>select:first-child{
  padding: 7px 15px;
  border-radius:40px;
  border: 0.5px solid #671795;
-
  font-size: small;
+ transition: 0.5s;
 }
+
+.menu>button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
 .header_section{
     display: flex;
     justify-content: center;
@@ -49,9 +62,7 @@ li>select:first-child{
     align-items: center;
     margin-top: 100px;
 }
-.left,.right{
-    border: 1px solid red;
-}
+
 .version{
     background-color: #efe6f4;
     display: flex;
@@ -93,7 +104,14 @@ li>select:first-child{
     padding: 8px 17px;
     border-radius: 20px;
     margin-top: 10px;
+    transition: 0.5s;
 }
+
+.btn>button:first-child:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
 .btn>button:last-child{
     font-size: small;
     color: #671795;
@@ -102,14 +120,18 @@ li>select:first-child{
     padding: 7px 15px;
     border-radius: 20px;
     margin-left: 8px;
+    transition: 0.5s;
 }
 
+.btn>button:last-child:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
 .right>img{
     width: 65vh;
 }
 main{
-    
-    border: 1px solid red;
+
     margin-top: 200px;
 }
 
@@ -210,12 +232,12 @@ main{
     justify-content: right;
     align-items: center;
     margin-top: 100px;
-    border: 1px solid red;
+
 }
 
 
 .data_drivenL{
-    border: 1px solid red;
+
     width: 35%;
     margin-left: 190px;
 }
@@ -227,17 +249,17 @@ main{
 }
 
 .data_drivenR{
-    border: 1px solid red;
+
     overflow: hidden;
 }
 
 .data_drivenR>img{
-    border: 1px solid red;
+
     width: 90%;
 }
 
 .logos_div{
-    border: 1px solid red;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -262,7 +284,7 @@ main{
 
 .logos_div>div{
     width: 65%;
-    border: 1px solid red;
+
     display: flex;
     justify-content: space-between;
 }
@@ -274,14 +296,14 @@ main{
 }
 
 .last{
-    border: 1px solid red;
+
     width: 70%;
     display: flex;
     margin: auto;
     margin-top: 200px;
 }
 .last_left{
-    border: 1px solid black;
+
     width: 50%;
 
 }
@@ -396,13 +418,15 @@ form>input:first-child:hover{
 
 footer{
     margin-top: 100px;
+    background-color: #f4f1f1;
 }
 
 .inside_footer{
     display: flex;  
     margin-top: 100px;
     width: 70%;
-    border: 1px solid red;
+   padding-top: 30px;
+   padding-bottom: 30px;
     margin: auto;
     justify-content: space-between;
     
