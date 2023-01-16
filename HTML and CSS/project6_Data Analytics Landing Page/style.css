@@ -392,3 +392,62 @@ form>input:first-child:hover{
   cursor: pointer;
     border-bottom-style:solid;
 }
+
+
+footer{
+    margin-top: 100px;
+}
+
+.inside_footer{
+    display: flex;  
+    margin-top: 100px;
+    width: 70%;
+    border: 1px solid red;
+    margin: auto;
+    justify-content: space-between;
+    
+
+
+}
+
+.inside_footer>div>p{
+    font-size: 11px;
+    color: #808080;
+    cursor: pointer;
+}
+.inside_footer>div>p:hover{
+    color: #c088e1;
+}
+
+.inside_footer>div>p:first-child{
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    cursor:default;
+}
+
+.first_pOf{
+    color: #808080;
+    font-size: small;
+    width: 180px;
+    line-height: 18px;
+    cursor: default;
+}
+
+
+.last_footer_div>input{
+    padding: 7px;
+}
+
+.last_footer_div>img{
+    position: relative;
+    left: -25px;
+    top: 2px;
+    width: 15px;
+    cursor: pointer;
+}
+
+.social>img{
+    margin-right: 8px;
+    cursor: pointer;
+}
