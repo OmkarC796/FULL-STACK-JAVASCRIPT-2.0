@@ -235,3 +235,94 @@ main{
     border: 1px solid red;
     width: 90%;
 }
+
+.logos_div{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logos_div>h2{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.logos_div>img{
+    border-radius: 100%;
+}
+.logos_div>p{
+    font-size: small;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.logos_div>div{
+    width: 65%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos_div>hr{
+    width: 75%;
+    background-color: #e9e6e6;
+    margin-bottom: 20px;
+}
+
+.last{
+    border: 1px solid red;
+    width: 70%;
+    display: flex;
+    margin: auto;
+    margin-top: 200px;
+}
+.last_left{
+    border: 1px solid black;
+    width: 50%;
+
+}
+.last_right{
+    border: 1px solid black;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.partial_hr{
+    display: flex;
+}
+
+.partial_hr>hr{
+    transform: rotate(90deg);
+    height: 120px;
+    background-color: #e9e6e6;
+    margin-top: -35px;
+   
+}
+.gridLogo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: 100px;
+
+    grid-gap: 20px;
+}
+
+form{
+    border: 1px solid blue;
+    width: 50%;
+
+}
+form>input{
+    width: 100%;
+}
+.last_right>hr{
+   margin-top: 20px;
+  margin-bottom: -10px;
+   background-color: rgb(223, 221, 221);
+   width: 80%;
+}
