@@ -307,6 +307,11 @@ main{
     width: 50%;
 
 }
+
+.trusted_by{
+    color: #808080;
+    font-size: small;
+}
 .last_right{
 
     width: 48%;
@@ -326,7 +331,7 @@ main{
     transform: rotate(90deg);
     height: 120px;
     background-color: #e9e6e6;
-    margin-top: -35px;
+    margin-top: -38px;
    
 }
 .gridLogo{
