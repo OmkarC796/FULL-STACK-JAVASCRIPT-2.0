@@ -275,11 +275,13 @@ main{
 
 .logos_div>img{
     border-radius: 100%;
+    cursor: pointer;
 }
 .logos_div>p{
     font-size: small;
     font-weight: 700;
     line-height: 18px;
+    cursor: pointer;
 }
 
 .logos_div>div{
