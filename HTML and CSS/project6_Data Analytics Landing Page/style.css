@@ -286,7 +286,6 @@ main{
 
 .logos_div>div{
     width: 65%;
-
     display: flex;
     justify-content: space-between;
 }
