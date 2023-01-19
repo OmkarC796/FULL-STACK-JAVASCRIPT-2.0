@@ -5,11 +5,33 @@ const h1 = document.createElement("h1");
    const mob = document.createElement("p");
 
    mob.innerHTML = "202211002"
-body.append(h1, mob)
+
+    const btn = document.createElement("button")
+
+          btn.innerText = "submit"
+
+          btn.addEventListener("click", myClick);
+            
+          function myClick(){
+            const name = document.createElement("h2");
+            if (name.innerText === "") {
+               name.innerText = "omkar chauhan";
+           } else {
+               name.innerText = "";
+               alert("clicked again")
+           }
+                body.append(name)
+         }
+         
+     
+      
+
+body.append(h1, mob, btn)
 
 
-const calculate = () =>{
-   const a=1546;
+
+const calculate = () => {
+   const a=16;
    const b=40;
    const c = a+b;
    console.log(c)
