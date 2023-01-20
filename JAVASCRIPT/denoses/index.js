@@ -68,3 +68,16 @@ const myFun = () => {
 }
 
 myFun();
+
+let name = "omkar";
+let bag =  "";
+
+for(let i=0; i<name.length; i++){
+   if(i%2==0){
+      bag+=name[i].toUpperCase();
+   }else{
+      bag+=name[i].toLowerCase();
+   }
+}
+console.log(bag)
+
