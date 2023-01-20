@@ -81,3 +81,22 @@ for(let i=0; i<name.length; i++){
 }
 console.log(bag)
 
+
+let fname = "Omkar";
+
+let upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let lower = "abcdefghijklmnopqrstuvwxyz";
+
+let jhola = "";
+for(let i=0; i<fname.length; i++){
+  
+   for(let j=0; j<upper.length; j++){
+      if(fname[i]==upper[j]){
+         jhola+=lower[j];
+      }
+   
+
+   }
+  
+}
+console.log(jhola)
