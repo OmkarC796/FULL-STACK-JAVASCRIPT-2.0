@@ -87,16 +87,46 @@ let fname = "Omkar";
 let upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let lower = "abcdefghijklmnopqrstuvwxyz";
 
+
 let jhola = "";
+
 for(let i=0; i<fname.length; i++){
   
    for(let j=0; j<upper.length; j++){
       if(fname[i]==upper[j]){
          jhola+=lower[j];
       }
-   
 
    }
   
 }
 console.log(jhola)
+
+
+
+
+// ASSIGNMENT
+
+let myName = "omkar";
+  console.log(typeof(myName))
+
+
+let nameIsstring = true;
+
+console.log(typeof(nameIsstring))
+
+let lastName;
+
+console.log(typeof(lastName))
+
+let mobi
+console.log(typeof(mobi))
+
+
+
+
+
+
+
+
+
