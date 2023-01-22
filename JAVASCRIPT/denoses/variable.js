@@ -199,3 +199,9 @@ let loggedIn = true;
 
 
 raining ? console.log('if logged in show LOG OUT button') : console.log('if logged out show LOG IN button');
+
+
+function btnFunc() {
+
+   do
+}
