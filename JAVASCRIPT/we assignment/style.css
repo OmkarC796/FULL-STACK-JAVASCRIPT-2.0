@@ -2,13 +2,15 @@
 body{
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 #button{
     padding: 15px;
     font-size: 25px;
     border-radius: 15px;
-    cursor: pointerC;
+    cursor: pointer;
 
 }
