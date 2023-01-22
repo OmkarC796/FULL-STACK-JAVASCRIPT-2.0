@@ -4,8 +4,10 @@ console.log(x);
 // 9120973579 mausi
 
 
-let fname =  "omkar Chauhan";
+// let fname =  "omkar Chauhan";
 
-// let print it
+// // let print it
 
-console.log(fname)
+// console.log(fname)
+
+

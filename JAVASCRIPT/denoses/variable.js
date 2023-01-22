@@ -126,28 +126,46 @@
 
 
     
-let body = document.querySelector("body")
+// let body = document.querySelector("body")
 
-body.addEventListener("click", myClick);
+// body.addEventListener("click", myClick);
 
-function myClick(){
+// function myClick(){
 
-   let div = document.createElement("div");
-
-
-   div.classList.add("circle")
-
-   div.style.left = Eventxp
-
-   body.appendChild(div)
-}
-
-  let val = confirm("Are you sure?")
-  if(val){
-   document.
-  }
+//    let div = document.createElement("div");
 
 
-  let prop = prompt("solve this 2-1=?")
+//    div.classList.add("circle")
+
+//    div.style.left = Eventxp
+
+//    body.appendChild(div)
+// }
+
+//   let val = confirm("Are you sure?")
+//   if(val){
+//    document
+//   }
 
 
+//   let prop = prompt("solve this 2-1=?")
+
+
+   const PI = Math.PI
+   console.log(PI) 
+
+   console.log(Math.round(PI))  // 3 nearest round value
+
+   console.log(Math.round(9.85)) // 10
+
+   console.log(Math.floor(PI)) //  3 rounded down
+
+   console.log(Math.ceil(PI)) // 4 rounded up
+
+   console.log(Math.min(-1, 2, 10, 5)) // -1 return the minimmum value
+
+   console.log(Math.max(-1, 2, 3, 4, 20)) // 20 return the maximum value
+
+console.log(Math.random()) // some random value between 0 to 10
+
+console.log(Date.now)
