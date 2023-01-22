@@ -169,3 +169,23 @@
 console.log(Math.random()) // some random value between 0 to 10
 
 console.log(Date.now)
+
+
+//ternary operator
+
+//symbol => ? and  :  
+
+//condition ? True : False;
+
+// let raining = true;
+ let raining = false;
+
+raining ? console.log('It is Raining') : console.log('It is not Raining');
+
+
+// let loggedIn = false;
+
+let loggedIn = true;
+
+
+raining ? console.log('if logged in show LOG OUT button') : console.log('if logged out show LOG IN button');
