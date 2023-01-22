@@ -168,7 +168,17 @@
 
 console.log(Math.random()) // some random value between 0 to 10
 
-console.log(Date.now)
+console.log(new Date())
+
+let now = new Date();
+
+console.log(now)
+
+console.log(now.toString())
+
+console.log(now.getFullYear())
+
+console.log(now.getMonth)
 
 
 //ternary operator
