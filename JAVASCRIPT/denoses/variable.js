@@ -1,207 +1,76 @@
-// const body = document.querySelector("body");
-
-// const h1 = document.createElement("h1");
-//    h1.innerText = "Omkar"
-//    const mob = document.createElement("p");
-
-//    mob.innerHTML = "202211002"
-
-//     const btn = document.createElement("button")
-
-//           btn.innerText = "submit"
-
-//           btn.addEventListener("click", myClick);
-            
-//           function myClick(){
-//             const name = document.createElement("h2");
-//             if (name.innerText === "") {
-//                name.innerText = "omkar chauhan";
-//            } else {
-//                name.innerText = "";
-//                alert("clicked again")
-//            }
-//                 body.append(name)
-//          }
-         
-     
-      
 
-// body.append(h1, mob, btn)
 
 
 
-// const calculate = () => {
-//    const a=16;
-//    const b=40;
-//    const c = a+b;
-//    console.log(c)
-// }
 
-// calculate();
+// // ASSIGNMENT  // //
 
-// function myf(){
-//    const a=12;
-//    const b=40;
-//    const c = a+b;
-//    return c;
-// }
-// console.log(myf())
+// 1. ANS=>
 
-// const myFun = () => {
-//    const obj = {
-//       name: "omkar",
-//       age: 26,
-//       mob: 124578787,
-//       hobbies:["running", "biking"],
-//       add: {
-//          city:"jaunpur",
-//          country:"India",
-//       }
-//    }
-  
-//    obj.add["pin"]="222";
-//    console.log(obj.add,)
-//    for(let i=0; i<obj.hobbies.length; i++){
-//       console.log(obj.hobbies[i])
-//    }
-//    console.log(obj)
-// }
+let myName = "omkar";
+  console.log(typeof(myName))  // string
 
-// myFun();
 
-// let name = "omkar";
-// let bag =  "";
+let isStudent = true;
 
-// for(let i=0; i<name.length; i++){
-//    if(i%2==0){
-//       bag+=name[i].toUpperCase();
-//    }else{
-//       bag+=name[i].toLowerCase();
-//    }
-// }
-// console.log(bag)
+console.log(typeof(nameIsstring))   // boolean
 
+let lstName;
 
-// let fname = "Omkar";
+console.log(typeof(lstName))     // undefined
 
-// let upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-// let lower = "abcdefghijklmnopqrstuvwxyz";
 
+let address = null;
+console.log(address + " is a " + typeof address);     // null
 
-// let jhola = "";
 
-// for(let i=0; i<fname.length; i++){
-  
-//    for(let j=0; j<upper.length; j++){
-//       if(fname[i]==upper[j]){
-//          jhola+=lower[j];
-//       }
 
-//    }
-  
-// }
-// console.log(jhola)
 
+// 2. ANS=>
 
+let firstName = "Omkar";
+let lastName = "Chauhan";
+let maritalStatus = "single";
+let country = "India";
+let age = 25;
 
+console.log(`Hi, My name is ${firstName} ${lastName}. I am currently ${maritalStatus} and I am from ${country}. I am ${age} years old.`);
+ 
+// Hi, My name is Omkar Chauhan. I am currently single and I am from India. I am 25 years old.
 
-// // ASSIGNMENT
 
-// let myName = "omkar";
-//   console.log(typeof(myName))
+// 3. ANS=>
 
+let sentence = "Hello World!";
 
-// let nameIsstring = true;
+// Converting all characters to Uppercase
+sentence = sentence.toUpperCase();
+console.log("uppercase sentence : " + sentence);  // uppercase sentence : HELLO WORLD!
 
-// console.log(typeof(nameIsstring))
 
-// let lastName;
 
-// console.log(typeof(lastName))
+// 4. ANS=>
 
-// let mobi
-// console.log(typeof(mobi))
+let valString = "JavaScript is a programming language";
 
+// Checking  if the string contains the word "Script"
+let isContains = valString.includes("Script");
+console.log("Is the sentence contains the word Script : " + isContains);  // Is the sentence contains the word Script : true
 
 
 
-    
-// let body = document.querySelector("body")
 
-// body.addEventListener("click", myClick);
+// 5. ANS=>
 
-// function myClick(){
+let mainWords = "JavaScript is a programming language";
+let words = mainWords.split(",");
+console.log(words);                            // ['JavaScript is a programming language']
 
-//    let div = document.createElement("div");
 
+// 6. ANS=> 
 
-//    div.classList.add("circle")
+let names = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon';
 
-//    div.style.left = Eventxp
+let spliting = names.split(",")
 
-//    body.appendChild(div)
-// }
-
-//   let val = confirm("Are you sure?")
-//   if(val){
-//    document
-//   }
-
-
-//   let prop = prompt("solve this 2-1=?")
-
-
-   const PI = Math.PI
-   console.log(PI) 
-
-   console.log(Math.round(PI))  // 3 nearest round value
-
-   console.log(Math.round(9.85)) // 10
-
-   console.log(Math.floor(PI)) //  3 rounded down
-
-   console.log(Math.ceil(PI)) // 4 rounded up
-
-   console.log(Math.min(-1, 2, 10, 5)) // -1 return the minimmum value
-
-   console.log(Math.max(-1, 2, 3, 4, 20)) // 20 return the maximum value
-
-console.log(Math.random()) // some random value between 0 to 10
-
-console.log(new Date())
-
-let now = new Date();
-
-console.log(now)
-
-console.log(now.toString())
-
-console.log(now.getFullYear())
-
-console.log(now.getMonth)
-
-
-//ternary operator
-
-//symbol => ? and  :  
-
-//condition ? True : False;
-
-// let raining = true;
- let raining = false;
-
-raining ? console.log('It is Raining') : console.log('It is not Raining');
-
-
-// let loggedIn = false;
-
-let loggedIn = true;
-
-
-raining ? console.log('if logged in show LOG OUT button') : console.log('if logged out show LOG IN button');
-
-
-function btnFunc() {
-
-   do
-}
+console.log(spliting)                    // ['Facebook', ' Google', ' Microsoft', ' Apple', ' IBM', ' Oracle', ' Amazon']
