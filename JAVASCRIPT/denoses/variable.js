@@ -74,3 +74,6 @@ let names = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon';
 let spliting = names.split(",")
 
 console.log(spliting)                    // ['Facebook', ' Google', ' Microsoft', ' Apple', ' IBM', ' Oracle', ' Amazon']
+
+
+// 7. ANS=> 
