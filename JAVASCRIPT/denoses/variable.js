@@ -81,6 +81,20 @@ console.log(spliting)                    // ['Facebook', ' Google', ' Microsoft'
 let array = ["pw skills", "programming", "coding", "pw skills", "web development"];
 let firstOccurrenceIs = array.indexOf("pw skills");
 let lastOccurrenceIs = array.lastIndexOf("pw skills");
-console.log("First occurrence of 'pw skills' is at index " + firstOccurrence + " and last occurrence is at index " + lastOccurrence);
+console.log("First occurrence of 'pw skills' is at index " + firstOccurrenceIs + " and last occurrence is at index " + lastOccurrenceIs);
 
-//First occurrence of 'pw skills' is at index 0 and last occurrence is at index 3
+// First occurrence of 'pw skills' is at index 0 and last occurrence is at index 3
+
+
+
+
+//  8. ANS=>
+
+let str = "  Hello, World!  ";
+console.log(str.trim());             //  "Hello, World!"
+
+
+
+
+// 9. ANS=> 
+
