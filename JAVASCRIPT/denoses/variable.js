@@ -281,3 +281,106 @@ console.log(str.trim());             //  "Hello, World!"
     console.log(4 == '4');
     console.log(4 === '4');
     console.log(6 > 6)
+
+
+
+
+
+
+ // 11. ANS=>
+
+ // To get the current year:
+var today = new Date();
+var year = today.getFullYear();
+console.log(year);
+
+
+// To get the current month:
+var month = today.getMonth();
+console.log(month);
+
+
+// To get the current date:
+var date = today.getDate();
+console.log(date);
+
+
+// To get the day of the week:
+var day = today.getDay();
+console.log(day);
+
+
+// To get the current hour:
+var hours = today.getHours();
+console.log(hours);
+
+
+// To get the current minutes:
+var minutes = today.getMinutes();
+console.log(minutes);
+
+
+// To get the number of seconds elapsed from January 1, 1970 to now, you can use the getTime() method:
+var seconds = today.getTime() / 1000;
+console.log(seconds);
+
+
+
+
+// 12. ANS=>
+
+// 1. YYYY-MM-DD HH:mm
+
+    var today = new Date();
+    var year = today.getFullYear();
+    var month = today.getMonth() + 1; // getMonth() returns a 0-indexed value, so add 1 to get the correct month
+    var date = today.getDate();
+    var hour = today.getHours();
+    var minute = today.getMinutes();
+
+    // format the month, date, and hour/minute values with leading zeroes if necessary
+    if (month < 10) { month = "0" + month; }
+    if (date < 10) { date = "0" + date; }
+    if (hour < 10) { hour = "0" + hour; }
+    if (minute < 10) { minute = "0" + minute; }
+
+    var formattedDate = year + "-" + month + "-" + date + " " + hour + ":" + minute;
+    console.log(formattedDate);
+
+
+
+// 2. DD-MM-YYYY HH:mm
+
+    var today = new Date();
+    var year = today.getFullYear();
+    var month = today.getMonth() + 1;
+    var date = today.getDate();
+    var hour = today.getHours();
+    var minute = today.getMinutes();
+
+    if (month < 10) { month = "0" + month; }
+    if (date < 10) { date = "0" + date; }
+    if (hour < 10) { hour = "0" + hour; }
+    if (minute < 10) { minute = "0" + minute; }
+
+    var formattedDate = date + "-" + month + "-" + year + " " + hour + ":" + minute;
+    console.log(formattedDate);
+
+
+
+// 3. DD/MM/YYYY HH:mm
+
+    var today = new Date();
+    var year = today.getFullYear();
+    var month = today.getMonth() + 1;
+    var date = today.getDate();
+    var hour = today.getHours();
+    var minute = today.getMinutes();
+
+    if (month < 10) { month = "0" + month; }
+    if (date < 10) { date = "0" + date; }
+    if (hour < 10) { hour = "0" + hour; }
+    if (minute < 10) { minute = "0" + minute; }
+
+    var formattedDate = date + "/" + month + "/" + year + " " + hour + ":" + minute;
+    console.log(formattedDate);
