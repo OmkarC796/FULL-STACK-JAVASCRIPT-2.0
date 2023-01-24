@@ -384,3 +384,24 @@ console.log(seconds);
 
     var formattedDate = date + "/" + month + "/" + year + " " + hour + ":" + minute;
     console.log(formattedDate);
+
+
+
+
+   // 12. ANS=>
+   
+  
+   var yourAge = prompt("Enter your age")
+
+
+  //  var yourAge = 18;
+
+   if (yourAge >= 18){
+
+   console.log("You are old enough to drive")
+
+   }else{
+
+   console.log("You need to wait for " + (18 - age) + " years to turn 18.")
+
+   }
