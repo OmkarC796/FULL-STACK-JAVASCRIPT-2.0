@@ -388,20 +388,53 @@ console.log(seconds);
 
 
 
-   // 12. ANS=>
+   // 13. ANS=>
    
   
-   var yourAge = prompt("Enter your age")
+  //  var yourAge = prompt("Enter your age")
 
 
-  //  var yourAge = 18;
+  // //  var yourAge = 18;
 
-   if (yourAge >= 18){
+  //  if (yourAge >= 18){
 
-   console.log("You are old enough to drive")
+  //  console.log("You are old enough to drive")
 
-   }else{
+  //  }else{
 
-   console.log("You need to wait for " + (18 - age) + " years to turn 18.")
+  //  console.log("You need to wait for " + (18 - age) + " years to turn 18.")
 
-   }
+  //  }
+
+
+
+   // 14. ANS=>
+
+  //  let number = prompt("Enter the number")
+
+  //  if(number%2==0){
+  //   console.log("Provided number is Even")
+  //  }else{
+  //   console.log("Provided number is Odd")
+  //  }
+
+
+
+
+    // 15. ANS=>
+
+    let yourScore = prompt("Enter your score")
+
+    if(yourScore >= 80 && yourScore <= 100){
+      console.log("Grade A")
+    }else if(yourScore >= 70 && yourScore <= 79){
+      console.log("B")
+    }else if(yourScore >= 60 && yourScore <=69){
+      console.log("C")
+    }else if(yourScore >= 50 && yourScore <= 59){
+      console.log("D")
+    }else if(yourScore >= 0 && yourScore <= 49){
+      console.log("F")
+    }else{
+      console.log("Enter valid score")
+    }
