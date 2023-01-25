@@ -231,6 +231,8 @@ while( j <= 5){
 
 
 
+// look at to the bellow how Node.JS run a new server
+// it's all the complete setup to run my page on the server directly
 
 
 
