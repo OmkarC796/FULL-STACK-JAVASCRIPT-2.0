@@ -170,7 +170,14 @@ console.log(now.toString())
 
 console.log(now.getFullYear())
 
-console.log(now.getMonth)
+console.log(now.getMonth())
+
+
+console.log(Math.pow(3,3))
+
+console.log(Math.log(2));
+
+console.log(Math.sin(90))
 
 
 //ternary operator
@@ -197,3 +204,101 @@ function btnFunc() {
 
 
 }
+
+
+
+
+// Loops ==>
+
+// 1. do while loops =>
+
+let i = 6;
+do {
+    console.log('Value of i is :', i);
+    i++;
+} while(i <= 5);
+
+
+
+// 2. while loops =>
+
+let j=6; 
+while( j <= 5){
+    console.log('Value of J is :', j)
+}
+
+
+
+
+
+
+
+
+const http = require('http');
+
+const hostname = '127.0.0.1';
+const port = 3000;
+
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/html');
+  res.end(`<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>J.S.</title>
+      <style>
+  
+        .circle{
+          width: 50px;
+          height: 50px;
+          background-color: #ffffff;
+          border-radius: 100%;
+        }
+        body{
+          background-color: black;
+          width: 100%;
+          height: 100vh;
+          color: #ffffff;
+  
+        }
+     
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 300px;
+    grid-gap: 10px;
+  }
+  
+  .grid-item {
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+      </style>
+  </head>
+  <body>
+       <h1>Javascript begining</h1>
+      <div class="grid-container">
+          <!-- <div class="grid-item">Item 1</div>
+          <div class="grid-item">Item 2</div>
+          <div class="grid-item">Item 3</div>
+          <div class="grid-item">Item 4</div>
+          <div class="grid-item">Item 5</div>
+          <div class="grid-item">Item 6</div>
+        </div>
+        <button id="btn" onclick="btnFunc()"></button> -->
+  </body>
+  </html>
+  <script src="./variable.js"></script>
+  
+  `);
+ 
+});
+
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
