@@ -304,3 +304,19 @@ const server = http.createServer((req, res) => {
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
+
+
+
+// ARRAY
+
+  let fruits = ['apple','bada apple',  'chhota apple', 'double apple'];
+
+  fruits.splice(2, 1, 'kharab apple', 'acha apple');
+
+  console.log(fruits)
+
+
+  let nameSlice = ["omkar", "rajesh", "mohan", "kamal"];
+  
+  console.log(nameSlice.slice(2,3));
+

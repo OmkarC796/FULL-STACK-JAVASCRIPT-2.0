@@ -458,3 +458,10 @@ if(input=="september" || input=="october" || input=="november"){
 }else{
   console.log("Enter a valid key")
 }
+
+// hey this is starting of new practice from classes as well so there we go now im going to there we go nothing is going hey this is new the from 
+
+
+// go beyond syntax highlighting auto with Intellisense, which provides smart completyions based on variable types, function definitions, and imported modeuls.
+
+
