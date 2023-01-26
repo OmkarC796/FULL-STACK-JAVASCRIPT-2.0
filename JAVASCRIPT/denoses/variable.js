@@ -391,32 +391,32 @@ console.log(seconds);
    // 13. ANS=>
    
   
-  //  var yourAge = prompt("Enter your age")
+   var yourAge = prompt("Enter your age")
 
 
-  // //  var yourAge = 18;
+  //  var yourAge = 18;
 
-  //  if (yourAge >= 18){
+   if (yourAge >= 18){
 
-  //  console.log("You are old enough to drive")
+   console.log("You are old enough to drive")
 
-  //  }else{
+   }else{
 
-  //  console.log("You need to wait for " + (18 - age) + " years to turn 18.")
+   console.log("You need to wait for " + (18 - age) + " years to turn 18.")
 
-  //  }
+   }
 
 
 
-   // 14. ANS=>
+  //  14. ANS=>
 
-  //  let number = prompt("Enter the number")
+   let number = prompt("Enter the number")
 
-  //  if(number%2==0){
-  //   console.log("Provided number is Even")
-  //  }else{
-  //   console.log("Provided number is Odd")
-  //  }
+   if(number%2==0){
+    console.log("Provided number is Even")
+   }else{
+    console.log("Provided number is Odd")
+   }
 
 
 
@@ -438,3 +438,23 @@ console.log(seconds);
     }else{
       console.log("Enter valid score")
     }
+
+
+
+
+
+// 16. ANS=>
+
+let input = prompt("Enter the season");
+
+if(input=="september" || input=="october" || input=="november"){
+  console.log("The season is Autumn")
+} else if(input=="december" || input=="january" || input=="february"){
+  console.log("The season is Winter")
+} else if(input=="march" || input=="april" || input=="may"){
+  console.log("The season is Spring")
+} else if(input=="june" || input=="july" || input=="august"){
+  console.log("The season is Summer")
+}else{
+  console.log("Enter a valid key")
+}
