@@ -317,6 +317,19 @@ server.listen(port, hostname, () => {
 
 
   let nameSlice = ["omkar", "rajesh", "mohan", "kamal"];
-  
+
   console.log(nameSlice.slice(2,3));
+
+  
+
+  // concatination
+
+  let arr1 = [1,2,3,4];
+  let arr2 = [4,5,6,7,8,9]
+  let arr3 = [5,2,8,3,4]
+
+  let arr = arr1.concat(arr2)
+  let allConcat = arr1.concat(arr2, arr3)
+  console.log(arr)
+  console.log(allConcat)
 
