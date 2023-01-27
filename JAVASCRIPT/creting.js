@@ -383,7 +383,7 @@ console.log(numsShift.shift());
 
 //sort
 
-let nameSort = ["omkar", "kundan", "rabi", rajesh];
+let nameSort = ["omkar", "kundan", "rabi", "rajesh"];
 
 console.log(nameSort.sort());
 
@@ -399,5 +399,24 @@ console.log(fruitsUnshift.unshift("Apple1", "Apple2"));
 
 let myName = "OMKAR";
 
-let arrayMy = name.split("");
+let arrayMy = myName.split("");
 console.log(arrayMy)
+
+
+
+
+// for of
+
+let fruitsOf = ["Apple", "Bada Apple", "Chhota Apple", "Double Apple"];
+
+let upperFruit = [];
+
+for(const badaLetter of fruitsOf){
+  upperFruit.push(badaLetter.toUpperCase());
+}
+console.log(upperFruit);
+
+
+
+
+
