@@ -307,6 +307,13 @@ server.listen(port, hostname, () => {
 
 
 
+
+
+
+
+// Inbuilts IN ARRAY
+
+
 // ARRAY
 
   let fruits = ['apple','bada apple',  'chhota apple', 'double apple'];
@@ -362,7 +369,7 @@ server.listen(port, hostname, () => {
 
 // Pop
 
-let nums = [1,3,4,4];
+let nums = [1,3,5,4];
 console.log(nums.pop())
 
 
@@ -376,7 +383,7 @@ console.log(numRev.reverse());
 
 // shift 
 
-let numsShift = [4,6,678,9,50];
+let numsShift = ["Apple", "Mango", "Banana", "Orange"];
 console.log(numsShift.shift());
 
 
@@ -415,6 +422,27 @@ for(const badaLetter of fruitsOf){
   upperFruit.push(badaLetter.toUpperCase());
 }
 console.log(upperFruit);
+
+
+
+// break and continue
+
+for(let i=0; i<=5; i++){
+  if(i==3){
+    break;                // break means stop at that position and exit or come out or stop the loop
+  }
+  console.log(i)
+}
+
+for(let i=0; i<=5; i++){
+  if(i==3){
+    continue;                // continue means just skip that index and continue to loop 
+  }
+  console.log(i)
+}
+
+
+
 
 
 
