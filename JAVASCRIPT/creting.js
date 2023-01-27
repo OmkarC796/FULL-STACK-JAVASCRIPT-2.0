@@ -354,4 +354,50 @@ server.listen(port, hostname, () => {
   let Arr = [5,6,8,2, 'omkar'];
   console.log(Arr.join(" "))
 
+  // Map
 
+  let squreRt = [1,2,3,4,50];
+  console.log(squreRt.map(Math.sqrt))
+
+
+// Pop
+
+let nums = [1,3,4,4];
+console.log(nums.pop())
+
+
+//reverse 
+
+let numRev = [5,4,6,8,3];
+
+console.log(numRev.reverse());
+
+
+
+// shift 
+
+let numsShift = [4,6,678,9,50];
+console.log(numsShift.shift());
+
+
+
+//sort
+
+let nameSort = ["omkar", "kundan", "rabi", rajesh];
+
+console.log(nameSort.sort());
+
+
+
+// unshift
+
+let fruitsUnshift = ["Apple", "Bada Apple", "Chhota Apple", "Double Apple"];
+console.log(fruitsUnshift.unshift("Apple1", "Apple2"));
+
+
+// converting to array using split() method
+
+let myName = "OMKAR";
+
+let arrayMy = name.split("");
+console.log(arrayMy)
