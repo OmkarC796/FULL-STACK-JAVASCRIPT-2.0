@@ -333,3 +333,25 @@ server.listen(port, hostname, () => {
   console.log(arr)
   console.log(allConcat)
 
+
+
+  // Fill
+
+  let arr4 = [2,4,6,8,5];
+  arr4.fill("omkar", 2, 4);
+  console.log(arr4);
+
+
+
+  // isArray
+
+  let num = [1,2,3,8,6];
+  console.log(Array.isArray(num));
+
+
+  // join
+
+  let Arr = [5,6,8,2, 'omkar'];
+  console.log(Arr.join(" "))
+
+
