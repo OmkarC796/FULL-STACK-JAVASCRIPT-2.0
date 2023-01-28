@@ -446,5 +446,44 @@ for(let i=0; i<=5; i++){
 
 
 
+// function
 
 
+function sum(value1, value2){
+  let sumOf = value1+value2;
+
+  console.log(sumOf)
+}
+
+
+
+sum(12,28)
+sum(12,29)
+sum(16,23)
+sum(52,983)
+sum(52,83)
+sum(19,23)
+sum(126,23)
+
+
+
+
+
+function diff(v1, v2){
+  let diffOf = v1-v2;
+
+  console.log(diffOf)
+}
+
+diff(32,65);
+
+
+
+function rectangle(length, width){
+ 
+  const rectangleArea = length*width;
+
+  console.log(rectangleArea)
+}
+
+rectangle(10, 30)
