@@ -487,3 +487,32 @@ function rectangle(length, width){
 }
 
 rectangle(10, 30)
+
+
+
+
+// original Function
+
+function sum(val1, val2){
+  const result  = val1 + val2;
+
+  return result;
+}
+
+let add = sum(12,45);
+
+console.log(add)
+
+
+
+function URL(url, domain){
+  const connection = "https://";
+  const reslt = connection + url + domain;
+  
+  return reslt;
+}
+
+let mywebsite = URL("codewithomkar", ".com");
+
+console.log(mywebsite)
+
