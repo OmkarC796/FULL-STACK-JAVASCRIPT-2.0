@@ -516,3 +516,33 @@ let mywebsite = URL("codewithomkar", ".com");
 
 console.log(mywebsite)
 
+
+
+
+function math(arr){
+  let sum = 0;
+  for( let i=0; i<arr.length; i++){
+    sum+=arr[i]
+  }
+  return sum;
+}
+
+let array = [4, 5, 7, 8, 90];
+
+let cal = math(array)
+console.log(cal)
+
+
+
+
+
+function myFun(){
+  let sum = 0; 
+  for(let i = 0; i<arguments.length; i++){      // arguments is pre-defined from the side of js
+    sum+=arguments[i]
+  }
+  return sum;
+}
+
+let calcu = myFun(5, 6, 8, 2, 3)
+console.log(calcu)
