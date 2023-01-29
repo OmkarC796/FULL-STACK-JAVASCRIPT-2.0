@@ -72,3 +72,60 @@ console.log(Object.getPrototypeOf(obj3))
 
 
 
+// define property method
+
+// const obj4 = Object.create({});
+
+// Object.defineProperty(obj4, "book", {
+//   // category:"promming languages"           this method will not work
+   
+//   get: () => "programming language"
+
+// });
+
+// console.log(obj4)
+// console.log(obj4.book)
+
+
+
+// enumerable  
+const obj4 = Object.create({});
+Object.defineProperty(obj4, "book", {
+
+  get: () => "programming language",
+
+  enumerable:true                       // it means if we want to loop on the obj then we need to do enumerable flag on or mention it as true
+
+
+});
+
+for(const k in obj4){
+  console.log(`Value is : ${k}`)
+}
+
+
+
+// using "this" keyword adding some value in global object key property
+
+const obj5 = {
+  movie : "avangers",
+  part : "",
+
+  addValue : function () {
+    this.part += "four";
+    // console.log(this)
+    return this;
+  },
+
+  addNowValue : () => {          // this arrow function methood would not be applicable because it will give only undefined result
+    this.part += "four";
+    console.log(this)
+  }
+  
+  
+}
+console.log(obj5.addValue())
+
+// chaining
+console.log(obj5.addValue().addValue().addValue())
+
