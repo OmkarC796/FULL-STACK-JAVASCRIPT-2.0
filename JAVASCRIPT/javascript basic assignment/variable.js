@@ -459,30 +459,47 @@ if(input=="september" || input=="october" || input=="november"){
   console.log("Enter a valid season month key")
 }
 
-// hey this is starting of new practice from classes as well so there we go now im going to there we go nothing is going hey this is new the from 
-
-
-// go beyond syntax highlighting auto with Intellisense, which provides smart completyions based on variable types, function definitions, and imported modeuls.
 
 
 
 //  17. ANS=>
 
-function countDaysInMonth(month) {
-  return new Date(0, month, 0).getDate();
+function daysInMonth(month) {
+  if (month === 2 ) {
+  
+      return 28;
+    
+  } else if (month === 1 || month === 3 || month === 5 || month === 7 || month === 8 || month === 10 || month === 12) {
+    return 31;
+  } else {
+    return 30;
+  }
 }
-console.log(countDaysInMonth(12));
+
+console.log(daysInMonth(2))
+
 
 
 
 
 // 18. ANS=>
 
-
-function countDaysInMonth(month, year) {
-  return new Date(0, month, year).getDate();
+function daysInMonth(month, year) {
+  if (month === 2) {
+    if (year % 4===0) {
+      return 29;
+    } else {
+      return 28;
+    }
+  } else if (month === 1 || month === 3 || month === 5 || month === 7 || month === 8 || month === 10 || month === 12) {
+    return 31;
+  } else {
+    return 30;
+  }
 }
-console.log(countDaysInMonth(2, 2024));
+
+console.log(daysInMonth(2, 2028))
+
 
 
 
