@@ -531,3 +531,82 @@ console.log(shoppingCart); //  [ 'Meat', 'Milk', 'Coffee', 'Green Tea', 'Sugar' 
 
 
 
+
+// 21. ANS=>
+
+let countries = ["India", "America", "Australia", "Newzealand", "Ethiopia"];
+
+if(countries.includes("Ethiopia")){
+
+  let lastIndex = countries.length - 1;
+  let lastCountry = countries[lastIndex];
+  
+  console.log(lastCountry.toUpperCase());
+
+}else{
+  countries.push("countries")
+}
+
+console.log(countries)
+
+
+
+
+
+// 22. ANS=>
+
+let ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
+
+ // array sorting
+ages.sort((a, b) => a-b)
+console.log(ages);
+
+
+// Finding the min and max age
+let maxAge = -Infinity
+let minAge = Infinity
+for(let i=0; i<ages.length; i++){
+if(maxAge<ages[i]){
+  maxAge = ages[i]
+ 
+}else if(minAge>ages[i]){
+  minAge = ages[i]
+
+}
+
+}
+console.log(`Minimum age is : ${minAge} and maximum age is : ${maxAge}`)
+
+
+// Finding the median age
+
+medianAge = ages[Math.floor(ages.length / 2)];
+console.log(medianAge, ages.indexOf(medianAge))
+
+
+// Finding the average age
+let sumOfage = 0;
+let count = 0;
+
+for(let j = 0; j < ages.length; j++){
+  sumOfage+=ages[j]
+ count++;
+ var averageAge = sumOfage/count
+}
+
+console.log(averageAge )
+console.log(Math.round(averageAge))
+
+
+// Finding the range of the ages
+
+let range = maxAge-minAge;
+console.log(range);
+
+
+// Compare the value of (min - average) and (max - average);
+let differenceMinAverage = Math.abs(minAge - averageAge);
+let differenceMaxAverage = Math.abs(maxAge - averageAge);
+
+console.log(differenceMinAverage);
+console.log(differenceMaxAverage);
