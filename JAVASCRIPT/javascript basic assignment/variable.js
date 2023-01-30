@@ -503,7 +503,31 @@ console.log(daysInMonth(2, 2028))
 
 
 
+// 19. ANS=>  this question's solution is in "js file linking assignment" folder.
 
+
+
+
+// 20. ANS=>
+
+const shoppingCart = ["Milk", "Coffee", "Tea", "Honey"];
+
+if (!shoppingCart.includes("Meat")) {
+  shoppingCart.unshift("Meat");
+}
+
+if (!shoppingCart.includes("Sugar")) {
+  shoppingCart.push("Sugar");
+}
+
+const index = shoppingCart.indexOf("Honey");
+  shoppingCart.splice(index, 1);
+
+
+const teaIndex = shoppingCart.indexOf("Tea");
+  shoppingCart[teaIndex] = "Green Tea";
+
+console.log(shoppingCart); //  [ 'Meat', 'Milk', 'Coffee', 'Green Tea', 'Sugar' ]
 
 
 
