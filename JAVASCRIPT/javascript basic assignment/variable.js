@@ -456,12 +456,37 @@ if(input=="september" || input=="october" || input=="november"){
 } else if(input=="june" || input=="july" || input=="august"){
   console.log("The season is Summer")
 }else{
-  console.log("Enter a valid key")
+  console.log("Enter a valid season month key")
 }
 
 // hey this is starting of new practice from classes as well so there we go now im going to there we go nothing is going hey this is new the from 
 
 
 // go beyond syntax highlighting auto with Intellisense, which provides smart completyions based on variable types, function definitions, and imported modeuls.
+
+
+
+//  17. ANS=>
+
+function countDaysInMonth(month) {
+  return new Date(0, month, 0).getDate();
+}
+console.log(countDaysInMonth(12));
+
+
+
+
+// 18. ANS=>
+
+
+function countDaysInMonth(month, year) {
+  return new Date(0, month, year).getDate();
+}
+console.log(countDaysInMonth(2, 2024));
+
+
+
+
+
 
 

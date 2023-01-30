@@ -54,5 +54,28 @@ console.log(someone(...val))             // spread
 
 
 
+// event loop 
+// event loop is a kind of javascript duty to excecution context that when do we need to execute the code and when the 
+// some code is being execute the remains code will be waiting in queue to come that turn
+
+
+
 
 // promise  
+
+    // 1. pending
+    // 2. fullfilled
+    // 3. rejected
+   
+
+    // resolve and rejected
+
+
+    // function countDaysInMonth(year, month) {
+    //   return new Date(year, month, 0).getDate();
+    // }
+    // console.log(countDaysInMonth(2024, 2));
+
+
+    
+    
