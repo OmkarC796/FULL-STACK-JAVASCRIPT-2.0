@@ -551,3 +551,57 @@ console.log(calcu)
 
 
 
+let evenArray = [];
+let oddArray = [];
+
+for(let i = 0; i<=100; i++){
+  if(i % 2 == 0){
+    evenArray.push(i)
+  }else{
+    oddArray.push(i)
+  }
+}
+
+console.log(evenArray);
+console.log(oddArray);
+
+
+
+//     - The same groups apply to both men and women.
+//     - Underweight: BMI is less than 18.5
+//     - Normal weight: BMI is 18.5 to 24.9
+//     - Overweight: BMI is 25 to 29.9
+//     - Obese: BMI is 30 or more
+
+// function calculateBMI(weight, height){
+//   const bmi = weight / (height * height);
+
+//   if(bmi < 18.5){
+//     return "underweight"
+//   }else if(bmi >= 18.5 || bmi <= 24.9 ){
+//     return "Normal"
+//   }else if( bmi >= 25 || bmi <=29.9){
+//     return "Overweight"
+//   } else {
+//     return "Obese"
+//   }
+// }
+
+
+// console.log(calculateBMI(800, 5))
+
+function calculateBMI(weight, height) {
+  const bmi = weight / (height * height);
+  if (bmi < 18.5) {
+    return "Underweight";
+  } else if (bmi >= 18.5 && bmi <= 24.9) {
+    return "Normal weight";
+  } else if (bmi >= 25 && bmi <= 29.9) {
+    return "Overweight";
+  } else {
+    return "Obese";
+  }
+}
+ console.log(calculateBMI(80, 5));
+
+

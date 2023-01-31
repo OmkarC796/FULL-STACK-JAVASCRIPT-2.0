@@ -581,7 +581,7 @@ console.log(`Minimum age is : ${minAge} and maximum age is : ${maxAge}`)
 // Finding the median age
 
 medianAge = ages[Math.floor(ages.length / 2)];
-console.log(medianAge, ages.indexOf(medianAge))
+console.log("medianAge is :", medianAge, " Index of medianAge", ages.indexOf(medianAge))
 
 
 // Finding the average age
@@ -610,3 +610,63 @@ let differenceMaxAverage = Math.abs(maxAge - averageAge);
 
 console.log(differenceMinAverage);
 console.log(differenceMaxAverage);
+
+
+
+
+
+
+
+// 23. ANS ==>
+
+let numberIs = prompt("Enter a number to check whether the number is prime or not");
+
+function isPrime(num) {
+  if (num <= 1) {
+    return false;
+  }
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) {
+      return false;
+    }
+  }
+  return true;
+}
+
+if (isPrime(numberIs)) {
+  console.log(`${numberIs} is a prime number.`);
+} else {
+  console.log(`${numberIs} is not a prime number.`);
+}
+
+
+
+
+
+
+
+
+// 24. ANS ==>
+
+let evenArray = [];
+let oddArray = [];
+
+for(let i = 0; i<=100; i++){
+  if(i % 2 == 0){
+    evenArray.push(i)
+  }else{
+    oddArray.push(i)
+  }
+}
+
+console.log(evenArray);
+console.log(oddArray);
+
+
+
+
+// 25. ANS ==>
+
+function bmiMass(weight, height){
+  if
+}
