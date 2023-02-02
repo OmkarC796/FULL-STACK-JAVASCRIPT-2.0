@@ -625,7 +625,7 @@ function isPrime(num) {
   if (num <= 1) {
     return false;
   }
-  for (let i = 2; i < num; i++) {
+  for (let i = 0; i < num; i++) {
     if (num % i === 0) {
       return false;
     }
@@ -686,5 +686,37 @@ function calculateBMI(weight, height) {
  
  // 26. ANS ==>
  
- 
- 
+ function givenNumberByUser(num){
+  let tableResult = num * 2;
+  return tableResult
+}
+
+let calculateBy = givenNumberByUser(7);
+
+console.log(calculateBy)
+
+
+
+
+
+// 27. ANS ==>
+
+
+function isPrime(num) {
+  if (num <= 1) {
+    return false;
+  }
+  for (let i = 0; i <= 100; i++) {
+    if (num % i === 0) {
+      return false;
+    }
+  }
+  return true;
+}
+
+if (isPrime(numberIs)) {
+  console.log(`${numberIs} is a prime number.`);
+} else {
+  console.log(`${numberIs} is not a prime number.`);
+}
+

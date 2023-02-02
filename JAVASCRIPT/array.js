@@ -592,3 +592,22 @@ console.log(oddArray);
 
 
 
+function isPrime(num) {
+  if (num <= 1) {
+    return false;
+  }
+  for (let i = 0; i <= 100; i++) {
+    if (num % i === 0) {
+      console.log(`${numberIs} is a prime number.`);
+    }
+  }
+  console.log(`${numberIs} is not a prime number.`);
+}
+
+// if (isPrime(numberIs)) {
+//   console.log(`${numberIs} is a prime number.`);
+// } else {
+//   console.log(`${numberIs} is not a prime number.`);
+// }
+
+isPrime()
