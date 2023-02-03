@@ -760,3 +760,16 @@ for (let i = 0; i < 3; i++) {
   }
   console.log(str);
 }
+
+
+
+
+// 29. ANS ==>
+
+function getFileExtension(filename) {
+  let parts = filename.split('.');
+  return parts[parts.length - 1];
+}
+
+let filename = "document.txt";
+console.log("The extension of the file is: " + getFileExtension(filename));
