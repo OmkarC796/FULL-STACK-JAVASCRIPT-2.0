@@ -142,7 +142,7 @@
 
 // // ASSIGNMENT  // //
 
-// 1. ANS=>
+// 1. ANS ==>
 
 let myName = "omkar";
   console.log(typeof(myName))  // string
@@ -163,7 +163,7 @@ console.log(address + " is a " + typeof address);     // null
 
 
 
-// 2. ANS=>
+// 2. ANS ==>
 
 let firstName = "Omkar";
 let lastName = "Chauhan";
@@ -176,7 +176,7 @@ console.log(`Hi, My name is ${firstName} ${lastName}. I am currently ${maritalSt
 // Hi, My name is Omkar Chauhan. I am currently single and I am from India. I am 25 years old.
 
 
-// 3. ANS=>
+// 3. ANS ==>
 
 let sentence = "Hello World!";
 
@@ -186,7 +186,7 @@ console.log("uppercase sentence : " + sentence);  // uppercase sentence : HELLO 
 
 
 
-// 4. ANS=>
+// 4. ANS ==>
 
 let valString = "JavaScript is a programming language";
 
@@ -197,14 +197,14 @@ console.log("Is the sentence contains the word Script : " + isContains);  // Is 
 
 
 
-// 5. ANS=>
+// 5. ANS ==>
 
 let mainWords = "JavaScript is a programming language";
 let words = mainWords.split(",");
 console.log(words);                            // ['JavaScript is a programming language']
 
 
-// 6. ANS=> 
+// 6. ANS ==>
 
 let names = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon';
 
@@ -225,7 +225,7 @@ console.log("First occurrence of 'pw skills' is at index " + firstOccurrenceIs +
 
 
 
-//  8. ANS=>
+//  8. ANS ==>
 
 let str = "  Hello, World!  ";
 console.log(str.trim());             //  "Hello, World!"
@@ -233,7 +233,7 @@ console.log(str.trim());             //  "Hello, World!"
 
 
 
-// 9. ANS=> 
+// 9. ANS ==>
 
 // (A) Three JavaScript statements that provide truthy values:
 
@@ -250,7 +250,7 @@ console.log(str.trim());             //  "Hello, World!"
 
 
 
-    // 10. ANS=>
+    // 10. ANS ==>
 
 
   //   4 > 3 is true
@@ -287,7 +287,7 @@ console.log(str.trim());             //  "Hello, World!"
 
 
 
- // 11. ANS=>
+ // 11. ANS ==>
 
  // To get the current year:
 var today = new Date();
@@ -327,7 +327,7 @@ console.log(seconds);
 
 
 
-// 12. ANS=>
+// 12. ANS ==>
 
 // 1. YYYY-MM-DD HH:mm
 
@@ -388,7 +388,7 @@ console.log(seconds);
 
 
 
-   // 13. ANS=>
+   // 13. ANS ==>
    
   
    var yourAge = prompt("Enter your age")
@@ -408,7 +408,7 @@ console.log(seconds);
 
 
 
-  //  14. ANS=>
+  //  14. ANS ==>
 
    let number = prompt("Enter the number")
 
@@ -421,7 +421,7 @@ console.log(seconds);
 
 
 
-    // 15. ANS=>
+    // 15. ANS ==>
 
     let yourScore = prompt("Enter your score")
 
@@ -443,7 +443,7 @@ console.log(seconds);
 
 
 
-// 16. ANS=>
+// 16. ANS ==>
 
 let input = prompt("Enter the season");
 
@@ -462,7 +462,7 @@ if(input=="september" || input=="october" || input=="november"){
 
 
 
-//  17. ANS=>
+//  17. ANS ==>
 
 function daysInMonth(month) {
   if (month === 2 ) {
@@ -482,7 +482,7 @@ console.log(daysInMonth(2))
 
 
 
-// 18. ANS=>
+// 18. ANS ==>
 
 function daysInMonth(month, year) {
   if (month === 2) {
@@ -503,12 +503,12 @@ console.log(daysInMonth(2, 2028))
 
 
 
-// 19. ANS=>  this question's solution is in "js file linking assignment" folder.
+// 19. ANS ==>  this question's solution is in "js file linking assignment" folder.
 
 
 
 
-// 20. ANS=>
+// 20. ANS ==>
 
 const shoppingCart = ["Milk", "Coffee", "Tea", "Honey"];
 
@@ -532,7 +532,7 @@ console.log(shoppingCart); //  [ 'Meat', 'Milk', 'Coffee', 'Green Tea', 'Sugar' 
 
 
 
-// 21. ANS=>
+// 21. ANS ==>
 
 let countries = ["India", "America", "Australia", "Newzealand", "Ethiopia"];
 
@@ -553,7 +553,7 @@ console.log(countries)
 
 
 
-// 22. ANS=>
+// 22. ANS ==>
 
 let ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
 
