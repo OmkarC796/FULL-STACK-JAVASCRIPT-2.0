@@ -562,8 +562,8 @@ for(let i = 0; i<=100; i++){
   }
 }
 
-console.log(evenArray);
-console.log(oddArray);
+// console.log(evenArray);
+// console.log(oddArray);
 
 
 
@@ -592,22 +592,51 @@ console.log(oddArray);
 
 
 
-function isPrime(num) {
-  if (num <= 1) {
-    return false;
-  }
-  for (let i = 0; i <= 100; i++) {
-    if (num % i === 0) {
-      console.log(`${numberIs} is a prime number.`);
-    }
-  }
-  console.log(`${numberIs} is not a prime number.`);
-}
+// 28. Write a program to print the given patterns using the loops-
+// 	a. Print a triangle pattern, if the given input is 3 then the pattern should be similar to the given output
+// 	   *
+// 	   **
+// 	   ***
+	
+// 	b. Print a square pattern, if the input is 3 then the output should be similar to the given output
+// 	   ***
+// 	   ***
+// 	   ***
 
-// if (isPrime(numberIs)) {
-//   console.log(`${numberIs} is a prime number.`);
-// } else {
-//   console.log(`${numberIs} is not a prime number.`);
+// 	c. Print a pyramid pattern, if the input is 3 then the output should be similar to the given output
+// 	     *
+// 	    ***
+//  	   *****
+
+
+
+
+// for(let i=3; i>=0; i--){
+//   let bag = "";
+//  for(let j=i; j<3; j++){
+//   bag+="*"
+//  }
+//  console.log(bag)
 // }
 
-isPrime()
+
+// for(let i=0; i<3; i++){
+//   let bag = "";
+//  for(let j=0; j<3; j++){
+//   bag+="*"
+//  }
+//  console.log(bag)
+// }
+
+// let n = 3;
+
+//   for (let i = 0; i < n; i++) {
+//     var str = '';
+//     for (let j = 1; j < n-i; j++) {
+//       str += ' ';
+//     }
+//     for (var k = 0; k <= (2 * i); k++) {
+//       str += '*';
+//     }
+//     console.log(str);
+//   }
