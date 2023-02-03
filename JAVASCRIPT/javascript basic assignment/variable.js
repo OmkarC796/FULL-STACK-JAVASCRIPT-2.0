@@ -720,3 +720,43 @@ if (isPrime(numberIs)) {
   console.log(`${numberIs} is not a prime number.`);
 }
 
+
+
+
+// 28. ANS ==>
+
+
+
+// (a) =>
+for(let i=3; i>=0; i--){
+  let bag = "";
+ for(let j=i; j<3; j++){
+  bag+="*"
+ }
+ console.log(bag)
+}
+
+
+
+// (b) =>
+for(let i=0; i<3; i++){
+  let bag = "";
+ for(let j=0; j<3; j++){
+  bag+="*"
+ }
+ console.log(bag)
+}
+
+
+
+// (c) =>
+for (let i = 0; i < 3; i++) {
+  let str = '';
+  for (let j = 1; j < 3-i; j++) {
+    str += ' ';
+  }
+  for (let k = 0; k <= (2 * i); k++) {
+    str += '*';
+  }
+  console.log(str);
+}

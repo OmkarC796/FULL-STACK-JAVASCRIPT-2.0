@@ -628,15 +628,16 @@ for(let i = 0; i<=100; i++){
 //  console.log(bag)
 // }
 
-// let n = 3;
 
-//   for (let i = 0; i < n; i++) {
-//     var str = '';
-//     for (let j = 1; j < n-i; j++) {
-//       str += ' ';
-//     }
-//     for (var k = 0; k <= (2 * i); k++) {
-//       str += '*';
-//     }
-//     console.log(str);
-//   }
+
+  // for (let i = 0; i < 3; i++) {
+  //   let str = '';
+  //   for (let j = 1; j < 3-i; j++) {
+  //     str += ' ';
+  //   }
+  //   for (let k = 0; k <= (2 * i); k++) {
+  //     str += '*';
+  //   }
+  //   console.log(str);
+  // }
+  
