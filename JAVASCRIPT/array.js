@@ -590,3 +590,11 @@ for(let i = 0; i<=100; i++){
 
 // console.log(calculateBMI(800, 5))
 
+
+
+// template litrals==>   ( `` )   and also known as Javascript Interpolation
+
+// console.log( ` ` )
+
+let nu = [1,2,3]
+console.log("nu is: ", typeof(nu))
