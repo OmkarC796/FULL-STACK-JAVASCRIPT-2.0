@@ -599,14 +599,30 @@ for(let i = 0; i<=100; i++){
 // let nu = [1,2,3]
 // console.log("nu is: ", typeof(nu))
 
-function sum(){
-  const x = 10;
+// function sum(){
+//   const x = 10;
 
-  function sub(){
-    console.log(x)
+//   function sub(){
+//     console.log(x)
     
-  }
-  sub()
+//   }
+//   sub()
+// }
+
+// sum();
+
+
+// HOf example
+
+const myFun = () => {
+  console.log("omkar")
 }
 
-sum();
+myFun();
+
+
+//callback example
+
+setTimeout ( () => {
+  console.log("surname is chauhan")
+}, 300);
