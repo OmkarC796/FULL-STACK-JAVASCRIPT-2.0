@@ -627,3 +627,23 @@ setTimeout ( () => {
   console.log("surname is chauhan")
 }, 5000);
 
+
+// forEach
+
+const numFor = [1, 2, 3, 4, 10];
+
+const forE = numFor.forEach( (val) => {
+  console.log(val)
+})
+
+
+
+// map
+
+const mapNum = [5, 6, 8, 9, 30];
+const mapTo = mapNum.map((val)=>{
+   return (val*val)
+})
+
+console.log(mapTo)
+
