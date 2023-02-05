@@ -614,15 +614,16 @@ for(let i = 0; i<=100; i++){
 
 // HOf example
 
-const myFun = () => {
+const theName = () => {
   console.log("omkar")
 }
 
-myFun();
+theName();
 
 
 //callback example
 
 setTimeout ( () => {
   console.log("surname is chauhan")
-}, 300);
+}, 5000);
+
