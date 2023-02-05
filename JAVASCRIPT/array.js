@@ -596,5 +596,17 @@ for(let i = 0; i<=100; i++){
 
 // console.log( ` ` )
 
-let nu = [1,2,3]
-console.log("nu is: ", typeof(nu))
+// let nu = [1,2,3]
+// console.log("nu is: ", typeof(nu))
+
+function sum(){
+  const x = 10;
+
+  function sub(){
+    console.log(x)
+    
+  }
+  sub()
+}
+
+sum();
