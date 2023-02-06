@@ -660,12 +660,25 @@ const allNames = [
 
 
 
+// let bag = "";
+
+// for(let i=0; i<10; i++){
+//   for(let j=i; j<=i; j++){
+//     for(let k=j; k<=j; k--){
+//       bag+="*";
+//     }
+//     console.log(bag)
+//   }
+// }
+
+
+
 let bag = "";
 
-for(let i=0; i<10; i++){
-  for(let j=i; j<=i; j++){
-    for(let k=j; k<=j; k--){
-      bag+="*";
+for(let i=3; i>0; i--){
+  for(let j=0; j<=3; j++){
+    for(let k=j; k<=j; k++){
+      bag+="@";
     }
     console.log(bag)
   }
