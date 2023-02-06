@@ -642,8 +642,23 @@ const forE = numFor.forEach( (val) => {
 
 const mapNum = [5, 6, 8, 9, 30];
 const mapTo = mapNum.map((val)=>{
-   return (val*val)
+  
+console.log(val*val)
 })
 
-console.log(mapTo)
+// console.log(mapTo)
+
+// filter
+
+const allNames = [
+  "Uttar Pradesh",
+  "Maharashtra",
+  "Madhya Pradesh"
+]
+
+const filtering = allNames.filter((val)=>{
+  return "Madhya"
+})
+
+console.log(filtering)
 
