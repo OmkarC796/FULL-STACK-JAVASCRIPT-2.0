@@ -656,3 +656,17 @@ const allNames = [
   "Madhya Pradesh"
 ]
 
+// need to revised the filter and reduce as homework
+
+
+
+let bag = "";
+
+for(let i=0; i<10; i++){
+  for(let j=i; j<=i; j++){
+    for(let k=j; k<=j; k--){
+      bag+="*";
+    }
+    console.log(bag)
+  }
+}
