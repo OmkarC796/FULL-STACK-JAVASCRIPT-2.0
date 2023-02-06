@@ -656,9 +656,3 @@ const allNames = [
   "Madhya Pradesh"
 ]
 
-const filtering = allNames.filter((val)=>{
-  return "Madhya"
-})
-
-console.log(filtering)
-
