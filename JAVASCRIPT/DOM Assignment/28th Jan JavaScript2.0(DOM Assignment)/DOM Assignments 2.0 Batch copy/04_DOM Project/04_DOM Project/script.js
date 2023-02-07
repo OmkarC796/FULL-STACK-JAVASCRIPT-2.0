@@ -1,3 +1,6 @@
+let title = document.querySelector("title")
+title.innerText = "04_DOM_Project"
+
 
 // title menthioned using DOM
 
@@ -11,24 +14,24 @@ fourth_title.innerHTML = "The Goblin"
 // background Change using DOM
 
 const Barbarian_bottom_div = document.querySelector("#first_bottom");
-Barbarian_bottom_div.style.backgroundColor = "#ec9b3b"
-Archer_bottom_div.style.color = "#ffffff"
+Barbarian_bottom_div.style.backgroundColor = "#ec9b3b";
+Barbarian_bottom_div.style.color = "#ffffff";
 
 const Archer_bottom_div = document.querySelector("#second_bottom");
-Archer_bottom_div.style.backgroundColor = "#ee5487"
-Archer_bottom_div.style.color = "#ffffff"
+Archer_bottom_div.style.backgroundColor = "#ee5487";
+Archer_bottom_div.style.color = "#ffffff";
 
 const Giant_bottom_div = document.querySelector("#third_bottom");
 Giant_bottom_div.style.backgroundColor = "#f6901a"
-Giant_bottom_div.style.color = "#ffffff"
+Giant_bottom_div.style.color = "#ffffff";
 
 const Goblin_bottom_div = document.querySelector("#fourth_bottom");
-Goblin_bottom_div.style.backgroundColor = "#82bb30"
-Goblin_bottom_div.style.color = "#ffffff"
+Goblin_bottom_div.style.backgroundColor = "#82bb30";
+Goblin_bottom_div.style.color = "#ffffff";
 
 const Wizard_bottom_div = document.querySelector("#last_bottom");
-Wizard_bottom_div.style.backgroundColor = "#4facff"
-Wizard_bottom_div.style.color = "#ffffff"
+Wizard_bottom_div.style.backgroundColor = "#4facff";
+Wizard_bottom_div.style.color = "#ffffff";
 
 
 
