@@ -136,7 +136,7 @@ body {
 
 .clash-card div:nth-child(3) {
   font-size: 26px;
-  color: black;
+  /* color: black; */
   font-weight: 900;
   margin-bottom: 5px;
 }
