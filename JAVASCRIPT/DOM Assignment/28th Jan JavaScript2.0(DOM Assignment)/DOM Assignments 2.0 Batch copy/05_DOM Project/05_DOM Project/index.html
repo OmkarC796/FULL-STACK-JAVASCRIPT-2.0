@@ -121,18 +121,21 @@ const chinese_category = document.createElement("a");
 
 
 const Beverages_card = document.querySelector(".recipe-gallery");
-
+const div = document.createElement("div")
 const img = document.createElement("img");
-      img.setAttribute("src") = "";
-
+      img.src = "./img/arisa-chattasa-VsAV_HjJpDc-unsplash.jpg";
+      img.style.width = "100%"
+      img.style.height = "200px"
       const h5 = document.createElement("h5");
             h5.innerText = "Beverages"
 
-            
+const p = document.createElement("p");
+p.innerText = "Prep: 5min | Cook: N/A"            
 
 
 
-
+div.append(img, h5, p)
+Beverages_card.append(div)
  
 </script>
 
