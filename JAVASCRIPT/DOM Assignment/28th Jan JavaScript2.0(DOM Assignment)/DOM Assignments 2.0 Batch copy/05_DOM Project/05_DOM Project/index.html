@@ -40,7 +40,7 @@
         <section class="recipes-container">
             <div class="tags-container">
                 <h4 class="text-r">recipes</h4>
-                <div class="">
+                <div class="recipes_categ">
                     <a href="#"> Veg (1)</a>
                     <a href="#"> Non-Veg (2)</a>
                     <a href="#"> Breakfasts (3)</a>
@@ -82,7 +82,7 @@
                 </div>
                 <div class="card">
                     <a href="#" class="recipe-text">
-                        <img src="./img/recipe-5.jpeg" class="recipe-img " />
+                        <img src="./img/recipe-5.jpeg" class="recipe-img "/>
                         <h5 class="recipe-name">Hakka Noodles</h5>
                         <p class="recipe-disp">Prep : 15min | Cook : 30min</p>
                     </a>
@@ -104,13 +104,32 @@
 <script>
    
 
-    const navbar = document.querySelector(".btn_div")
+const navbar = document.querySelector(".btn_div");
+const subscription_button = document.createElement("a");
+      subscription_button.classList.add("btn");
+      subscription_button.textContent="Pro Subscription";
 
-let subscription_button = document.createElement("a")
-subscription_button.classList.add("btn")
-subscription_button.textContent="Pro Subscription"
+      navbar.append(subscription_button);
 
-navbar.append(subscription_button)
+
+const recipes_category = document.querySelector(".recipes_categ");
+const chinese_category = document.createElement("a");
+      chinese_category.classList.add("chinese")
+      chinese_category.textContent = "Chinese(7)"
+
+      recipes_category.append(chinese_category);
+
+
+const Beverages_card = document.querySelector(".recipe-gallery");
+
+const img = document.createElement("img");
+      img.setAttribute("src") = "";
+
+      
+
+
+
+
  
 </script>
 
