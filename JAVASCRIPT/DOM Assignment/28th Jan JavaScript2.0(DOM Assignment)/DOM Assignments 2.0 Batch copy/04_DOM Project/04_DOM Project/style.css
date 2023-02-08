@@ -140,6 +140,9 @@ body {
   font-weight: 900;
   margin-bottom: 5px;
 }
+.title_name{
+  color: #000000;
+}
 
 .clash-card__unit-description {
   padding: 20px;
