@@ -84,7 +84,7 @@
                     <a href="#" class="recipe-text">
                         <img src="./img/recipe-5.jpeg" class="recipe-img "/>
                         <h5 class="recipe-name">Hakka Noodles</h5>
-                        <p class="recipe-disp">Prep : 15min | Cook : 30min</p>
+                        <p id="recipe" class="recipe-disp">Prep : 15min | Cook : 30min</p>
                     </a>
                 </div>
             </div>
@@ -111,6 +111,9 @@ const subscription_button = document.createElement("a");
 
       navbar.append(subscription_button);
 
+// const recipes_container = document.querySelector(".card>h5");
+
+// recipes_container.style.color = "blueviolet"
 
 const recipes_category = document.querySelector(".recipes_categ");
 const chinese_category = document.createElement("a");
@@ -134,11 +137,14 @@ const h5 = document.createElement("h5");
       h5.style.marginBottom = "10px"
 
 const p = document.createElement("p");
-      p.innerText = "Prep: 5min | Cook: N/A"            
+      p.innerText = "Prep: 5min | Cook: N/A"  
 
       div.append(img, h5, p)
       Beverages_card.append(div)
 
+    let colorO = document.getElementsById("recipe");
+    colorO.style.color = "red"
+    
 </script>
 
 
