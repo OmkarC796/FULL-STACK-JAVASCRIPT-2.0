@@ -84,7 +84,7 @@
                     <a href="#" class="recipe-text">
                         <img src="./img/recipe-5.jpeg" class="recipe-img "/>
                         <h5 class="recipe-name">Hakka Noodles</h5>
-                        <p id="recipe" class="recipe-disp">Prep : 15min | Cook : 30min</p>
+                        <p class="recipe-disp">Prep : 15min | Cook : 30min</p>
                     </a>
                 </div>
             </div>
@@ -142,8 +142,11 @@ const p = document.createElement("p");
       div.append(img, h5, p)
       Beverages_card.append(div)
 
-    let colorO = document.getElementsById("recipe");
-    colorO.style.color = "red"
+    let colorP_tags = document.getElementsByClassName("recipe-disp");
+    colorP_tags.style.color = "blueviolet"
+
+    let colorH5_tags = document.getElementsByClassName("recipe-name");
+    colorH5_tags.style.color = "blueviolet"
     
 </script>
 
