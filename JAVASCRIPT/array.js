@@ -638,7 +638,7 @@ const forE = numFor.forEach( (val) => {
 
 
 
-// map
+// map 
 
 const mapNum = [5, 6, 8, 9, 30];
 const mapTo = mapNum.map((val)=>{
@@ -648,13 +648,26 @@ console.log(val*val)
 
 // console.log(mapTo)
 
-// filter
+// filter  ==>  iterate over array and filter out the element
 
 const allNames = [
   "Uttar Pradesh",
   "Maharashtra",
   "Madhya Pradesh"
 ]
+
+  const allCountry = allNames.filter((val) => val.includes("Uttar"));
+  console.log("namw :", allCountry)   
+  
+  
+
+
+// Reduce  ==>  bring out single value
+
+const num1 = [1, 2, 3, 4];
+const InReduce = num1.reduce((acc, cur) => acc+cur, 1);
+
+console.log(InReduce)
 
 // need to revised the filter and reduce as homework
 
