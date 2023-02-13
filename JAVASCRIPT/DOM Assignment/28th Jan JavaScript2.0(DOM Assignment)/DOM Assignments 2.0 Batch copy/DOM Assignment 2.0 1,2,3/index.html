@@ -55,7 +55,7 @@
         <p>
           I am an aspiring <span>Full Stack JavaScript Developer</span>,
           <br />who is currently working as <span>a Freelancer</span> for <br />
-          <span>National and International Client</span>.
+          <span class="changingWith_iNeuron">National and International Client</span>.
         </p>
       </div>
 
@@ -90,13 +90,7 @@
 </html>
 <script>
   
-  //      <ul>
-  //         <li><a href="./index.html">Home</a></li>
-  //         <li><a href="./about/about.html">About</a></li>
-  //         <li><a href="./contact/contact.html">Contact</a></li>
-  //       </ul>
-  
-  
+  // adding Hire Me menu to navbar
   const fetch_ul = document.querySelector("ul");
 
   const li_for_hireMe = document.createElement("li");
@@ -108,7 +102,18 @@
 
     li_for_hireMe.append(a_tag)
 
-
-
   fetch_ul.append(li_for_hireMe)
+
+
+// changing placeholder name of search input
+
+const search_div = document.querySelector(".search-field>input");
+
+search_div.setAttribute("placeholder", "Search My Project")
+
+
+
+const changingWith_iNuronName_to_introPart = document.querySelector(".changingWith_iNeuron");
+
+changingWith_iNuronName_to_introPart.innerHTML  = "iNeuron Intelligence Pvt Ltd"
 </script>
