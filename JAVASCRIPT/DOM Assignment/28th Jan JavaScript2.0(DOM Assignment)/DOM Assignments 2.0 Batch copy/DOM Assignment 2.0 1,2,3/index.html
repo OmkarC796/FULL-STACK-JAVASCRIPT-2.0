@@ -88,3 +88,27 @@
     </footer>
   </body>
 </html>
+<script>
+  
+  //      <ul>
+  //         <li><a href="./index.html">Home</a></li>
+  //         <li><a href="./about/about.html">About</a></li>
+  //         <li><a href="./contact/contact.html">Contact</a></li>
+  //       </ul>
+  
+  
+  const fetch_ul = document.querySelector("ul");
+
+  const li_for_hireMe = document.createElement("li");
+  // li_for_hireMe.innerHTML = "Hire Me";
+  const a_tag = document.createElement("a");
+
+    a_tag.href = "#"
+    a_tag.innerHTML = "Hire Me"
+
+    li_for_hireMe.append(a_tag)
+
+
+
+  fetch_ul.append(li_for_hireMe)
+</script>
