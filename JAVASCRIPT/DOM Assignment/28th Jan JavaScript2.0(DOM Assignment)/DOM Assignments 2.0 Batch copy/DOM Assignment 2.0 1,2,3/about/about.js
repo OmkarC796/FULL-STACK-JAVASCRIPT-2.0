@@ -29,9 +29,6 @@ accordian_wrapper.append(accordian_div)
 
 
 
-
-
-
 let accordian = document.querySelectorAll(".accordian h3");
 accordian.forEach((element) => {
   element.addEventListener("click", () => {
