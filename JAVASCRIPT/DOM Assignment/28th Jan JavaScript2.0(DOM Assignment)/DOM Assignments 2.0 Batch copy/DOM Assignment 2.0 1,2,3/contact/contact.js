@@ -2,33 +2,31 @@
 
 
 
+let form = document.getElementById("form");
 
+form.addEventListener("submit", entries);
 
-const submitButton = document.querySelector(".submit");
-
-submitButton.addEventListener("submit", 
-function (event){
-    event.preventDefault();
-
-    const userName = document.querySelector(".userName").value;
+function entries(e){
+    e.preventDefault();
     
-    const enterName = document.querySelector("enterName");
-    enterName.innerHTML = userName
+    let userName = document.querySelector(".userName").value;
+    let enterName = document.querySelector(".enterName").value;
+    enterName.innerText = userName;
 
-    
-    const userEmail = document.querySelector(".userEmail").value;
-    
-    const enterMail = document.querySelector(".enterMail");
-    enterMail.innerHTML = userEmail
-    
-    
-    const userMessage = document.querySelector(".userMessage").value;
-        
-    const enterMessage = document.querySelector(".enterMessage");
-    enterMessage.innerHTML = userMessage
 
-console.log(userName);
-  
+    let userEmail = document.querySelector(".userEmail").value;
+    let enterMail = document.querySelector(".enterMail").value;
+    enterMail.innerText = userEmail;
 
-})
+
+    let userMessage = document.querySelector(".userMessage").value;
+    let enterMessage = document.querySelector(".enterMessage").value;
+    enterMessage.innerText = userMessage;
+
+    alert("")
+}
+
+
+
+
 
