@@ -94,8 +94,12 @@ hr{
     border-radius: 20px;
     position: relative;
     top: 70px;
+    transition: 0.5s;
 }
-
+.log_div:hover{
+    transform: scale(1.04);
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+}
 
 .log_div>img{
     width: 130px;
@@ -119,7 +123,7 @@ hr{
     width: auto;
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 18px;
     margin-top: 60px;
     margin-left: 0;
     
@@ -192,8 +196,12 @@ top: 30px;
         border-radius: 20px;
         position: relative;
         top: -15%;
+        transition: 0.5s;
     }
-
+    .inside_one:hover{
+        transform: scale(1.05);
+        box-shadow: rgba(23, 9, 176, 0.4) 0px 5px, rgba(15, 46, 202, 0.3) 0px 10px, rgba(50, 70, 222, 0.2) 0px 15px, rgba(73, 97, 250, 0.1) 0px 20px, rgba(96, 108, 243, 0.05) 0px 25px;
+    }
     .inside_left{
 
        align-items: center;
@@ -236,8 +244,12 @@ top: 30px;
     }
     .after_mainLeft{
 
-        width: 50%;
-        height: 113vh;
+        width: 45%;
+        height: 100vh;
+        transition: 0.5s;
+    }
+    .after_mainLeft:hover{
+        transform: scale(1.1);
     }
     .after_mainLeft>img:first-child{
         width: 100vh;
@@ -304,6 +316,16 @@ top: 30px;
        width: 40%;
     
    }
+   .after_main2Right{
+    transition: 0.5s;
+    width: auto;
+   }
+   .after_main2Right:hover{
+
+    transform: scale(1.1);
+
+   }
+
 
    .after_main2Right>img:first-child{
       width: 100vh;
@@ -368,7 +390,14 @@ top: 30px;
     padding-bottom: 50px;
     margin-top: 150px;
     color: #ffffff;
+    transition: 0.5s;
    }
+   #blue_div:hover{
+    background-color: #3434f1;
+    transform: scale(1.05);
+    /* border: 1px solid #09097; */
+    /* border-radius: 100px 0px 100px 0px; */
+}
 
    #blue_div>h1{
     margin-top: 0;
@@ -421,7 +450,9 @@ top: 30px;
     left: 41px;
     top: 6px;
     width: 20px;
+  
 }
+
 footer{
     display: flex;
     width: 80%;
