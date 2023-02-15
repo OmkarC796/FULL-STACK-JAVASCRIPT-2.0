@@ -246,11 +246,9 @@ top: 30px;
 
         width: 45%;
         height: 100vh;
-        transition: 0.5s;
+        /* transition: 0.5s; */
     }
-    .after_mainLeft:hover{
-        transform: scale(1.1);
-    }
+
     .after_mainLeft>img:first-child{
         width: 100vh;
         height: 130vh;
@@ -316,15 +314,7 @@ top: 30px;
        width: 40%;
     
    }
-   .after_main2Right{
-    transition: 0.5s;
-    width: auto;
-   }
-   .after_main2Right:hover{
-
-    transform: scale(1.1);
-
-   }
+ 
 
 
    .after_main2Right>img:first-child{
