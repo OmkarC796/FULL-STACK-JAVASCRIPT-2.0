@@ -28,3 +28,9 @@ const body = document.querySelector("body");
 
 
 // task : 3
+
+const navbar_toggler = document.querySelector(".navbar-toggler");
+navbar_toggler.addEventListener("click", function togglerNav() {
+      
+      const a1 = document.createElement("a")
+})
