@@ -31,6 +31,18 @@ const body = document.querySelector("body");
 
 const navbar_toggler = document.querySelector(".navbar-toggler");
 navbar_toggler.addEventListener("click", function togglerNav() {
-      
-      const a1 = document.createElement("a")
+      const navabar = document.querySelector("#navbarTogglerDemo01")
+      const div = document.createElement("div")
+      const li1 = document.createElement("li");
+      li1.innerHTML = "Home";
+      const li2 = document.createElement("li");
+      li2.innerHTML = "New"
+      const li3 = document.createElement("li");
+      li3.innerHTML = "Popular"
+      const li4 = document.createElement("li");
+      li4.innerHTML = "Trending"
+      const li5 = document.createElement("li");
+      li5.innerHTML = "Categories"
+      div.append(li1,li2,li3,li4,li5)
+      navabar.append(div)
 })
