@@ -3,16 +3,16 @@
 
 // task: 1
 
-// let removed_languages = document.querySelectorAll("a");
+let removed_languages = document.querySelectorAll("a");
 
-// for(let i=0; i<removed_languages.length; i++){
-//  if(i%2!==0){
+for(let i=0; i<removed_languages.length; i++){
+ if(i%2!==0){
 
-//  removed_languages[i].remove();
+ removed_languages[i].remove();
     
-//  }
+ }
 
-// }
+}
 
 
 

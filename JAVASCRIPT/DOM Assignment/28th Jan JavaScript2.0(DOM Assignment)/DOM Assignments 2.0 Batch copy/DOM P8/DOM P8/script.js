@@ -22,6 +22,9 @@ p.innerText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
 new_div.append(new_hr, h2, p);
 
 
-// task: 2 => normal back
+// task: 2 => background remove
 const body = document.querySelector("body");
-      body.style.backgroundImage = "none"
+      body.style.backgroundImage = "none";
+
+
+// task : 3
