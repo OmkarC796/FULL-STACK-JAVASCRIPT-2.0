@@ -37,7 +37,7 @@ function toggeler(){
       const navbarTogglerDemo01 = document.getElementById("navbarTogglerDemo01")
       
       const div = document.createElement("div");
-      div.setAttribute("class", "div")
+      div.setAttribute("class", "div")X
 
 //       const li1 = document.createElement("li")
 //       li1.innerText = "Home";
