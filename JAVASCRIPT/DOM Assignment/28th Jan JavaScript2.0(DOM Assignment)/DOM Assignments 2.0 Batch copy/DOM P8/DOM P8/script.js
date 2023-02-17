@@ -23,32 +23,29 @@ new_div.append(new_hr, h2, p);
 
 
 // task: 2 => background remove
-const body = document.querySelector("body");
+let body = document.querySelector("body");
       body.style.backgroundImage = "none";
 
 
 // task : 3
-let navabar = document.querySelector("#navbarTogglerDemo01")
 
+const btn = document.getElementById("name");
 
-function togglerNav() {
+btn.addEventListener("click", toggel)
+
+function toggel(){
+      const navbarTogglerDemo01 = document.getElementById("navbarTogglerDemo01")
       
-      let div = document.createElement("div")
-      let li1 = document.createElement("li");
-      li1.innerHTML = "Home";
-      let li2 = document.createElement("li");
-      li2.innerHTML = "New"
-      let li3 = document.createElement("li");
-      li3.innerHTML = "Popular"
-      let li4 = document.createElement("li");
-      li4.innerHTML = "Trending"
-      let li5 = document.createElement("li");
-      li5.innerHTML = "Categories"
-      div.append(li1,li2,li3,li4,li5)
-      navabar.append(div)
+      const ul = document.createElement("div");
+      ul.style.display = "block"
+     
+      const li = document.createElement("h1")
+      li.innerText = "Omakr"
+      // li.style.color = "black"
+
+     ul.append(li)
+
+      navbarTogglerDemo01.append(ul)
+
+
 }
-
-console.log(togglerNav())
-
-let navbar_toggler = document.querySelector("#btn");
-navbar_toggler.addEventListener("click", togglerNav)
