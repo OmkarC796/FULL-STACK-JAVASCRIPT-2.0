@@ -29,23 +29,50 @@ let body = document.querySelector("body");
 
 // task : 3
 
-const btn = document.getElementById("name");
+const togglerBtn = document.querySelector(".navbar-toggler");
 
-btn.addEventListener("click", toggel)
+togglerBtn.addEventListener("click", toggeler)
 
-function toggel(){
+function toggeler(){
       const navbarTogglerDemo01 = document.getElementById("navbarTogglerDemo01")
       
-      const ul = document.createElement("div");
-      ul.style.display = "block"
-     
-      const li = document.createElement("h1")
-      li.innerText = "Omakr"
-      // li.style.color = "black"
+      const div = document.createElement("div");
+      div.setAttribute("class", "div")
 
-     ul.append(li)
+//       const li1 = document.createElement("li")
+//       li1.innerText = "Home";
+//       li1.style.listStyle = "none"
+//       li1.style.color = "gray"
 
-      navbarTogglerDemo01.append(ul)
+//       const li2 = document.createElement("li")
+//       li2.innerText = "New";
+//       li2.style.listStyle = "none"
+//       li2.style.color = "gray"
+
+//       const li3 = document.createElement("li")
+//       li3.innerText = "Popular";
+//       li3.style.listStyle = "none"
+//       li3.style.color = "gray"
+
+//       const li4 = document.createElement("li")
+//       li4.innerText = "Trending";
+//       li4.style.listStyle = "none"
+//       li4.style.color = "gray"
+      
+//       const li5 = document.createElement("li")
+//       li5.innerText = "Categories"
+//       li5.style.listStyle = "none"
+//       li5.style.color = "gray"
+
+const lists = document.querySelector(".navbar-nav")
+console.log(lists);
+
+
+      div.append(lists)
+
+       navbarTogglerDemo01.append(div)
+
+
 
 
 }
