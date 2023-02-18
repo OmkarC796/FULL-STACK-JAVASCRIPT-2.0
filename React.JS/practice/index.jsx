@@ -23,3 +23,8 @@ try {
 } catch (error) {
  console.log(error)
 }
+
+//types of engines
+//there is two types of engines:
+// 1. rendering engine : this is responsible for html and css
+// 2. second is execution engine : this is responsible for javascript execution
