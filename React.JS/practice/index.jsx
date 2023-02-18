@@ -15,9 +15,11 @@ console.log(add);
 
 
 try {
-    const ressult = fetch(`https://api.github.com/users/${nameRct}`)
-    console.log(ressult)
-    
+    async const thisData = () => {
+        const response = await fetch(`https://api.github.com/users/${nameRct}`)
+        const data = await response.json
+        console.log(data)
+    }
 } catch (error) {
-    
+ console.log(error)
 }
