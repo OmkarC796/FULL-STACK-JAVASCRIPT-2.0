@@ -710,6 +710,10 @@ for(let i=0; i<10; i++){
 
 const arrT = [1,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19,20]
 
-const myF = (e) => {
-  arrT.map()
-}
+// const myF = (e) => {
+//   arrT.map()
+// }
+
+arrT.map((e) => {
+  console.log(edge(edge(e)))
+})
