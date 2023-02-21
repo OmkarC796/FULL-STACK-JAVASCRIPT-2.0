@@ -724,4 +724,8 @@ const ech = (e) => {
   })
 }
 
-console.log("omkar")
+console.log("omkar");
+
+
+
+// web serever: web server is a kind onlibe place where can keep stored all online data from where user can access needed data using a domain name.
