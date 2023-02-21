@@ -729,3 +729,5 @@ console.log("omkar");
 
 
 // web serever: web server is a kind onlibe place where can keep stored all online data from where user can access needed data using a domain name.
+
+// search engine: search engine is a engine using a search engine can be accessed data. when we enter a domain name in the search to access some needed data then a search engine goes to the web server and bring the data accordingly.
