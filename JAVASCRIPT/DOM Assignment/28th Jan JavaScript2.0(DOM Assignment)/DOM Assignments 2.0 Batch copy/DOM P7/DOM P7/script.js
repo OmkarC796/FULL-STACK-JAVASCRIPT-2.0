@@ -1,7 +1,8 @@
 
 'use strict'
 
-// task: 1
+// task: 1 Remove the languages that have 2.0 in their
+// name(Every alternative language)
 
 let removed_languages = document.querySelectorAll("a");
 
@@ -16,7 +17,7 @@ for(let i=0; i<removed_languages.length; i++){
 
 
 
-// task: 2
+// task: 2 enable the input to have values and enable the submit button to submit the form
 
 
      
