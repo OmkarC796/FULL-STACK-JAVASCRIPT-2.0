@@ -8,7 +8,7 @@
 title.innerText = "04_DOM_Project";
 
 
-// title menthioned using DOM
+#### title menthioned using DOM
 
 const second_title = document.querySelector(".title_2")
 second_title.innerHTML = "The Archer";
@@ -18,7 +18,7 @@ const fourth_title = document.querySelector(".title_4")
 fourth_title.innerHTML = "The Goblin";
 
 
-// background Change using DOM
+#### background Change using DOM
 
 const Barbarian_bottom_div = document.querySelector("#first_bottom");
 Barbarian_bottom_div.style.backgroundColor = "#ec9b3b";
@@ -46,7 +46,7 @@ const Wizard_bottom_div = document.querySelector("#last_bottom");
 
 ### Output code:
 
-// task: adding new Card and Recipes
+#### task: adding new Card and Recipes
 
 
 const navbar = document.querySelector(".btn_div");
@@ -104,13 +104,13 @@ let colorH5_tags = document.getElementsByClassName("recipe-name");
 
 "use strict";
 
-// task 1: add iNeuron logo image on to the top
+#### task 1: add iNeuron logo image on to the top
 
   const iNeuron_logo = document.querySelector(".logo");
   iNeuron_logo.src = "./assets/ineuron-logo.png";
 
 
-// task 2: change the price to the document and add one more linkedin brand logo
+#### task 2: change the price to the document and add one more linkedin brand logo
 
 const price = document.querySelector(".app_price>span");
       price.innerHTML = "$10";
@@ -134,8 +134,9 @@ const linkedIn_icon = document.createElement("i");
 
 ### Output code:
 
-// Assignment 1
-// task 1: adding Hire Me menu to navbar
+### Assignment 1
+
+#### task 1: adding Hire Me menu to navbar
 const fetch_ul = document.querySelector("ul");
 
 const li_for_hireMe = document.createElement("li");
@@ -151,7 +152,7 @@ fetch_ul.append(li_for_hireMe)
 
 
 
-// task 2: changing placeholder name of search input
+#### task 2: changing placeholder name of search input
 
 const search_div = document.querySelector(".search-field>input");
 
@@ -161,7 +162,7 @@ search_div.setAttribute("placeholder", "Search My Project")
 
 
 
-// task 3: changin name with iNeuron intelligence pvt ltd.
+#### task 3: changin name with iNeuron intelligence pvt ltd.
 
 const changingWith_iNuronName_to_introPart = document.querySelector(".changingWith_iNeuron");
 
@@ -169,12 +170,12 @@ changingWith_iNuronName_to_introPart.innerHTML  = "iNeuron Intelligence Pvt Ltd"
 
 
 
-// task 4: changing avatar
+#### task 4: changing avatar
 
 const change_avatar = document.querySelector(".hero-right-section>img");
 change_avatar.src = "https://hiteshchoudhary.com/static/a8d73d1aac4c79e9bb689640e6090367/2eaab/person-image.jpg"
 
-// task 5: add support me button
+#### task 5: add support me button
 
 
 const forAdding_btn_div = document.querySelector(".hero-right-section-btns");
@@ -186,18 +187,18 @@ support_button.innerText = "Support Me"
 forAdding_btn_div.append(support_button)
 
 
-## DOM assignment 2: IAbout Page project
+## DOM assignment 2: About Page project
 
 ### Output code:
 
-// task1 add new project menu to navber 
+#### task1 add new project menu to navber 
 
 const chenging_project = document.querySelector(".chenging_project");
 
 chenging_project.innerHTML = "Projects";
 
 
-// task2 add new accordian div with new strength and description
+#### task2 add new accordian div with new strength and description
 
 const accordian_wrapper = document.querySelector(".accordian-wrapper");
 
@@ -232,7 +233,7 @@ accordian.forEach((element) => {
 });
 
 
-## DOM assignment 3:  Page project
+## DOM assignment 3: Contact Page project
 
 ### Output code:
 
@@ -248,7 +249,7 @@ accordian.forEach((element) => {
 
 'use strict'
 
-// task: 1 Remove the languages that have 2.0 in their
+#### task: 1 Remove the languages that have 2.0 in their
 // name(Every alternative language)
 
 let removed_languages = document.querySelectorAll("a");
@@ -264,7 +265,7 @@ for(let i=0; i<removed_languages.length; i++){
 
 
 
-// task: 2 enable the input to have values and enable the submit button to submit the form
+#### task: 2 enable the input to have values and enable the submit button to submit the form
 
 
      
@@ -290,7 +291,7 @@ submit_button.style.cursor = "pointer";
 
 "use strict"
 
-// task: 1 => added new hr h2 and p elements.
+#### task: 1 => added new hr h2 and p elements.
 const new_div = document.querySelector(".new");
 
 new_div.style.overflow = "scroll"
@@ -312,12 +313,12 @@ p.innerText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
 new_div.append(new_hr, h2, p);
 
 
-// task: 2 => background remove
+#### task: 2 => background remove
 let body = document.querySelector("body");
       body.style.backgroundImage = "none";
 
 
-// task : 3
+#### task : 3
 
 const togglerBtn = document.querySelector(".navbar-toggler");
 
@@ -369,14 +370,14 @@ const lists = document.querySelector(".navbar-nav")
 ### Output code:
 
 
-// task : 1 h1 element color change as title
+#### task : 1 h1 element color change as title
 
 const title = document.querySelector("h1");
 title.style.color = "#c60606";
 
 
 
-// task : 2  add to cart button color change
+#### task : 2  add to cart button color change
 
 const add_to_cart_button = document.querySelector("button")
 add_to_cart_button.style.backgroundColor = "#c60606";
