@@ -3,6 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    cursor: default;
 }
 
 nav{
@@ -84,6 +85,7 @@ li>select:first-child{
 }
 .version>p>span:hover{
    text-decoration: underline;
+   cursor: pointer;
 }
 .left>h1{
     font-size: 40px;
@@ -129,6 +131,9 @@ li>select:first-child{
 }
 .right>img{
     width: 65vh;
+}
+.right>img:hover{
+    transform: rotate(360deg);
 }
 main{
 
