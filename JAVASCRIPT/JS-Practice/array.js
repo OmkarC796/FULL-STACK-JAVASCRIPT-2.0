@@ -733,4 +733,4 @@ console.log("omkar");
 // search engine: search engine is a engine using a search engine can be accessed data. when we enter a domain name in the search to access some needed data then a search engine goes to the web server and bring the data accordingly.
 
 
-// BABEL: BABEL is a transpiler that jsx change normal js.
+// BABEL: BABEL is a transpiler that jsx change normal js. which is used in react applications(apps) specially. 
