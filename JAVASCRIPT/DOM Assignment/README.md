@@ -237,10 +237,6 @@ accordian.forEach((element) => {
 
 ### Output code:
 
-
-
-
-
 let form = document.getElementById("form");
 
 form.addEventListener("submit", entries);
@@ -261,7 +257,7 @@ function entries(e){
     let userMessage = document.querySelector(".userMessage").value;
     let enterMessage = document.querySelector(".enterMessage");
     enterMessage.setAtribute("placeholder",userMessage);
-}
+};
 
 
 # DOM ASSIGNMENT 5
