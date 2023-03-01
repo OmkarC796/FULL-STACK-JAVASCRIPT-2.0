@@ -1,8 +1,7 @@
 
 const name = "Omkar"; // normal javscript
 
-const nameRct = <h1>Omkar</h1>;
-
+const nameRct = <h1>Omkar</h1>;  // jsx javscript
 console.log(nameRct);
 
 
