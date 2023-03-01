@@ -74,3 +74,17 @@ document.querySelector("nav-item");
 
 
 }
+const btn = document.createElement("button");
+btn.innerText = "button";
+btn.addEventListener("click",toggel);
+
+function toggel(){
+// document.getElementById("navbarTogglerDemo01") 
+const h1 = document.getElementById("navbarTogglerDemo01");
+// h1.innerText = "Hello";
+document.querySelector(".navbar-expand-lg").append(h1);  
+}
+
+// document.querySelector(".navbar-expand-lg").append(btn);
+
+
