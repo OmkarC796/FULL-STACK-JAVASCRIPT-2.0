@@ -657,7 +657,7 @@ const allNames = [
 ]
 
   const allCountry = allNames.filter((val) => val.includes("Uttar"));
-  console.log("namw :", allCountry)   
+  console.log("name :", allCountry)   
   
   
 
@@ -665,7 +665,7 @@ const allNames = [
 // Reduce  ==>  bring out single value
 
 const num1 = [1, 2, 3, 4];
-const InReduce = num1.reduce((acc, cur) => acc+cur, 1);
+const InReduce = num1.reduce((acc, cur) => acc + cur, 1);
 
 console.log(InReduce)
 
