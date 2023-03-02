@@ -2,9 +2,10 @@
 
 // FETCH API   using .then and .catch
 
-const url = "https://restcountries.com/v2/all";
+const url = "https://restcountries.com/v2/all"; // country name and some 
 
 fetch(url)
 .then((response) => response.json())
 .then((data) => console.log(data))
 .catch((error) => console.log(error))
+
