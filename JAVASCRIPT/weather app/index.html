@@ -6,27 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            background-repeat: no-repeat;
+            color: rgb(255, 0, 0);
+            font-weight: 900;
+            background-size: cover
+            
+        }
+        h1{
+            margin: auto;
+            text-align: center;
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
         .container{
             border: 2px solid #000;
-            width: 400px;
+            width: 500px;
             height: 250px; 
             display: flex;
             flex-direction: column;  
             align-items: center;
             justify-content: center; 
+            margin: auto;
         }
         form{
             margin: auto;
         }
         form input{
             margin-top: 20px;
-            
-
+            position: relative;
+            width: 100%;
         }
         form button{
             position: relative;
-            left: -55px;
+            left: 173px;
+            top: -22px;
             border: none;
+            cursor: pointer;
         }
         .countrydetails{
             display: flex;
@@ -111,20 +127,23 @@
     // .catch((error)=>console.log(error))
 
     let data;
-    let apiKey = ""
+    let apiKey = "04edb2ca9db74507a62110204231102"
 
     const inputBox = document.getElementById("inputBox"); 
-    const conutryNAme = document.getElementById("conutryName");
+    const conutryName = document.getElementById("countryName");
     const stateName = document.getElementById("stateName");
     const cityName = document.getElementById("cityName");
     const humidity = document.getElementById("humidity");
-    const temperature = document.getElementById("temperature");
+    const temperature = document.getElementById("temprature");
     const windSpeed = document.getElementById("windSpeed");
     const logoImage = document.getElementById("logoImage");
     const weatherStatus = document.getElementById("weatherStatus");
 
 
-    const getData = (event) => {
+    const body = document.querySelector("body");
+
+
+    const getData = async (event) => {
         event.preventDefault();
         if (!inputBox.value){
             alert("Please enter the city name")
@@ -135,7 +154,29 @@
 
         // fetch data
 
-        const fetchData = fetch(``)
+    const fetchData = await fetch(`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`)
 
+    const orgData = await fetchData.json()
+    data = orgData
+    console.log(data)
+
+
+    // display weather status
+
+    conutryName.innerHTML = data.location.country
+    stateName.innerHTML = data.location.region
+    cityName.innerHTML = data.location.name
+    humidity.innerHTML = data.current.humidity;
+    windSpeed.innerHTML = data.current.wind_kph
+    temperature.innerHTML = data.current.temp_c
+    logoImage.src = data.current.condition.icon;
+    weatherStatus.innerHTML = data.current.condition.text;
+
+    if(weatherStatus.innerHTML==="Clear"){
+        body.style.backgroundImage = "url(https://www.shutterstock.com/image-vector/spring-landscape-sunny-day-village-260nw-1865366770.jpg)";
     }
+}
+
+    
+
 </script>
