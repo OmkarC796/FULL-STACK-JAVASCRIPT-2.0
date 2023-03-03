@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        .container{
+            border: 2px solid #000;
+            width: 400px;
+            height: 250px; 
+            display: flex;
+            flex-direction: column;  
+            align-items: center;
+            justify-content: center; 
+        }
         form{
-            border: 1px solid red;
-            width: 300px;
-            height: 200px;
-            
+            margin: auto;
         }
         form input{
             margin-top: 20px;
@@ -22,11 +28,21 @@
             left: -55px;
             border: none;
         }
+        .countrydetails{
+            display: flex;
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 15px 0 15px;
+        }
     </style>
 </head>
 <body>
+    <h1>Weather Web App</h1>
     <div class="container">
-     <h1>Weather Web App</h1>
         <form action="" onsubmit="getData(event)" class="searchData">
             <input id="inputBox" type="text" placeholder="Enter city">
             <button> submit</button>
@@ -55,7 +71,32 @@
             </div>
 
             <!-- displaying the weather status -->
-             
+            <div class="countrydetails">
+                <!-- displaying the humidity -->
+                <div class="card">
+                    <p>Humidity</p>
+                    <p id="humidity">__</p>  
+                </div>
+
+                <!-- displaying the wind speed -->
+                <div class="card">
+                    <p>Wind Speed</p>
+                    <p> <span id="windSpeed">__</span>KMPH</p>  
+                </div>
+
+                <!-- displaying unicode for degree celcius symbol-->
+                <div class="card">
+                    <p>Temprature</p>
+                    <p ><span id="temprature">__</span>&#8451;</p>  
+                </div>
+                
+                <!-- displaying the weather condition -->
+                <div class="card">
+                    <img width="20ps" id="logoImage" src="" alt="icon">
+                    <p id="weatherStatus">__</p>
+                   
+                </div>
+            </div>
         </section>
     </div>
 </body>
@@ -69,7 +110,32 @@
     // .then((data)=>console.log(data))
     // .catch((error)=>console.log(error))
 
-    
+    let data;
+    let apiKey = ""
+
+    const inputBox = document.getElementById("inputBox"); 
+    const conutryNAme = document.getElementById("conutryName");
+    const stateName = document.getElementById("stateName");
+    const cityName = document.getElementById("cityName");
+    const humidity = document.getElementById("humidity");
+    const temperature = document.getElementById("temperature");
+    const windSpeed = document.getElementById("windSpeed");
+    const logoImage = document.getElementById("logoImage");
+    const weatherStatus = document.getElementById("weatherStatus");
 
 
+    const getData = (event) => {
+        event.preventDefault();
+        if (!inputBox.value){
+            alert("Please enter the city name")
+            return
+        }
+          
+        const city = inputBox.value;
+
+        // fetch data
+
+        const fetchData = fetch(``)
+
+    }
 </script>
