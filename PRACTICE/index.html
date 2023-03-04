@@ -18,7 +18,7 @@ const submitButton = document.querySelector("#btn");
 
 btn.addEventListener("click", mathmeticOpration)  // adding onclick event to the button and assigning a function name.
 
-function mathmeticOpration(){
+function mathmeticOpration(){          // taking a function with assigned name for some operation 
   let display = document.querySelector("#display")
   let takingInputforOpration = document.querySelector("#operation").value;
   display.innerHTML = eval(takingInputforOpration)
