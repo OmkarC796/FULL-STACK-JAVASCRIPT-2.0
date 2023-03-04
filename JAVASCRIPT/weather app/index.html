@@ -10,9 +10,10 @@
             background-repeat: no-repeat;
             color: rgb(255, 0, 0);
             font-weight: 900;
-            background-size: cover
-            
+            background-size: cover;
+            background-image : url("https://www.shutterstock.com/image-vector/spring-landscape-sunny-day-village-260nw-1865366770.jpg");
         }
+
         h1{
             margin: auto;
             text-align: center;
@@ -172,9 +173,9 @@
     logoImage.src = data.current.condition.icon;
     weatherStatus.innerHTML = data.current.condition.text;
 
-    if(weatherStatus.innerHTML==="Clear"){
-        body.style.backgroundImage = "url(https://www.shutterstock.com/image-vector/spring-landscape-sunny-day-village-260nw-1865366770.jpg)";
-    }
+    // if(weatherStatus.innerHTML==="Clear"){
+    //     body.style.backgroundImage = "url(https://www.shutterstock.com/image-vector/spring-landscape-sunny-day-village-260nw-1865366770.jpg)";
+    // }
 }
 
     
