@@ -10,18 +10,24 @@
 <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 </head>
 <body>
-    
+    <div class="root">Is it working?</div>
 </body>
 </html>
 <script type="text/babel">
-    const header = <header>    // I can write is as only using open tag and closeing tag = <></>
+
+    const reatElement = document.querySelector(".root");
+    const header = <header>    
             <h1>Document</h1>
             <p>Hello Omkar</p>
-    </header>
+             </header>
 
-
+    //  I can write is as only using open tag and closeing tag = <></>
     //   const header = <>    
     //                    <h1>Document</h1>
     //                   <p>Hello Omkar</p>
     //                  </>
+
+    // react.DOM.render(what ,where)
+
+    react.DOM.render(header, reatElement)
 </script>
