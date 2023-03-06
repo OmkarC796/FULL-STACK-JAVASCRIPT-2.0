@@ -8,7 +8,7 @@
     <style>
         body{
             background-repeat: no-repeat;
-            color: rgb(255, 0, 0);
+            color: red;
             font-weight: 900;
             background-size: cover;
             background-image : url("https://www.shutterstock.com/image-vector/spring-landscape-sunny-day-village-260nw-1865366770.jpg");
@@ -23,7 +23,7 @@
         .container{
             border: 2px solid #000;
             width: 500px;
-            height: 250px; 
+            height: 300px; 
             display: flex;
             flex-direction: column;  
             align-items: center;
@@ -54,6 +54,14 @@
             justify-content: center;
             align-items: center;
             margin: 0 15px 0 15px;
+        }
+        .card>p:nth-child(2){
+            color: rgb(9, 67, 240);
+        }
+        #logoImage{
+            border: 1px solid black;;
+            width: 40px;
+            height: 50px;
         }
     </style>
 </head>
@@ -109,7 +117,7 @@
                 
                 <!-- displaying the weather condition -->
                 <div class="card">
-                    <img width="20ps" id="logoImage" src="" alt="icon">
+                    <img id="logoImage" src="" alt="icon">
                     <p id="weatherStatus">__</p>
                    
                 </div>
