@@ -12,12 +12,16 @@
             font-weight: 900;
             background-size: cover;
             background-image : url("https://www.shutterstock.com/image-vector/spring-landscape-sunny-day-village-260nw-1865366770.jpg");
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
 
         h1{
             margin: auto;
             text-align: center;
-            margin-top: 100px;
+            /* margin-top: 100px; */
             margin-bottom: 50px;
         }
         .container{
@@ -63,6 +67,9 @@
             width: 40px;
             height: 50px;
         }
+        @media all and (min-width:270px) and (max-width:480px){
+
+        }
     </style>
 </head>
 <body>
@@ -106,7 +113,7 @@
                 <!-- displaying the wind speed -->
                 <div class="card">
                     <p>Wind Speed</p>
-                    <p> <span id="windSpeed">__</span>KMPH</p>  
+                    <p> <span id="windSpeed">__</span>km/h</p>  
                 </div>
 
                 <!-- displaying unicode for degree celcius symbol-->
