@@ -8,35 +8,41 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <style>
+        .header{
+            color: purple;
+            border: 5px solid red;
+        }
+    </style>
 </head>
 <body>
-    <div class="root">Is it rendering</div>
+    <div class="root">Is it rendering</div> 
+    <script type="text/babel">
+        const reatElement = document.querySelector(".root");
+        
+        //       I can write is as only using open tag and closeing tag = <></>
+        //       const header = <>    
+        //                    <h1>Document</h1>
+        //                    <p>Hello Omkar</p>
+        //                      </>
+        // react.DOM.render(what ,where)
+        
+        const header = (<header className="header" style={{border:"2px solid black", color: "red"}}>    
+                         <h1>Hello</h1>
+                         <p>Hello Omkar</p>     
+                 </header>
+                 )
+         const footer = ( <footer>
+                 <h2>This rendrening for footer</h2>  
+                 </footer>
+                 )
+                 const app = (          // this is reusable codes            
+                    <>
+                                             {header} {header} {header} {header} {footer} {footer} {footer}   
+                    </>
+                 )
+    
+        ReactDOM.render(app, reatElement)  
+    </script>
 </body>
 </html>
-<script type="text/babel">
-
-    const reatElement = document.querySelector(".root");
-    const header = <header>    
-            <h1>Hello</h1>
-            <p>Hello Omkar</p>
-             </header>
-
-    //  I can write is as only using open tag and closeing tag = <></>
-    //   const header = <>    
-    //                    <h1>Document</h1>
-    //                    <p>Hello Omkar</p>
-    //                  </>
-    // react.DOM.render(what ,where)
-
-    const footer = <>
-             <h2>THiS rendrening for footer</h2>  
-             </>
-
-    ReactDOM.render(header, reatElement)
-
-    console.log(reatElement);
-    console.log(header);
-    console.log(footer);
-
-
-</script>
