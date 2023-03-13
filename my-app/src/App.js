@@ -3,13 +3,13 @@
 
 import {useState} from 'react';
 
-// function Apptwo() {
-//   return (
-//     <div>
-//       <h1>App Two</h1>
-//     </div>
-//   );
-// }
+function Apptwo() {
+  return (
+    <div>
+      <h1>App Two</h1>
+    </div>
+  );
+}
 
 
 
@@ -31,14 +31,23 @@ function Counter() {
 }
 
 
+function superHeros(){
+  let [he, setCount] = useState(
+}
+
+
 
 function App() {
   return (
     
    <>
       <h1>App</h1>
-      <p>Hello this is very first react on my vs code editor</p>
-    
+      <p>Hello this is very first react app on my vs code editor</p>
+    <Apptwo/>
+      <Counter/>
+      <Counter/>
+      <Counter/>
+      <Counter/>
       <Counter/>
    </>
    
