@@ -31,12 +31,23 @@ function Counter() {
 }
 
 
-function superHeros(){
-  let [he, setCount] = useState(
+function SuperHeros(){
+  const [hero, setCount] = useState(['Superman', 'Spiderman', 'Ironman']);
+
+  return (
+    <div>
+      <ul>
+        {hero.map((h) => (
+          <li key={h}>{h}</li>
+        ))}
+      </ul>
+    </div>
+  )
 }
 
+// trying to make some another
 
-
+               
 function App() {
   return (
     
@@ -49,6 +60,7 @@ function App() {
       <Counter/>
       <Counter/>
       <Counter/>
+      <SuperHeros/>
    </>
    
   );
