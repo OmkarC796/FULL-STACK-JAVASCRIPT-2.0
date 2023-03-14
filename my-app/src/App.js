@@ -17,7 +17,7 @@ function Counter() {
   let [count, setCount] = useState(100)
 
  function oneUp(){
-  setCount(count + 1);
+  setCount(count + 1);     // here increasing the value
  }
 
  return (
@@ -45,7 +45,7 @@ function SuperHeros(){
   )
 }
 
-// trying to make some another function for next 
+// trying to make some another function for next operation
 
                
 function App() {
