@@ -45,7 +45,7 @@ function SuperHeros(){
   )
 }
 
-// trying to make some another
+// trying to make some another function for next 
 
                
 function App() {
