@@ -48,7 +48,7 @@ function SuperHeros(){
 // trying to make some another function for next operation
 
                
-function App() {
+function App() {                   // in this function adding all function for visualization on the document
   return (
     
    <>
