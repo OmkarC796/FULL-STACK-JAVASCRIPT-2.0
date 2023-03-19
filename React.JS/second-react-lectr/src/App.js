@@ -5,7 +5,7 @@ function App() {
     return(
         <>
         <div>App</div>
-        <Card myname={Omkar}/>
+        <Card myname="Omkar"/>
         </>
     )
     
