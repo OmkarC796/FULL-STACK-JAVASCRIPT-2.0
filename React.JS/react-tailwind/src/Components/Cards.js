@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Cards = () => {
+const Cards = (props) => {
   return (
     <>
-    <p>Hello cards</p>
+    <p>Hello cards, {props.name}</p>
     </>
   )
 }
