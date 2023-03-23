@@ -4,9 +4,13 @@ function App() {
 
   const [count, setCount] = useState(0)
   return (
-    <div>
+    <div className="counter">
       <h1>App counter</h1>
-      <p></p>
+      <div> {count} </div>
+      <div className="buttons">
+        <button></button>
+        <button></button>
+      </div>
     </div>
   );
 }
