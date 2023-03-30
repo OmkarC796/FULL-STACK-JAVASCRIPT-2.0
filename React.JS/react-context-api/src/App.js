@@ -1,7 +1,8 @@
 import { useState, createContext } from "react";
 
 
-import  Navbar from "./components/Navbar";
+import  Navbar from "./Components/Navbar";
+import HeroSection from "./Components/HeroSection";
 
 import './App.css';
 
@@ -32,6 +33,7 @@ const myColor = (event) => {
       value={color} 
       onChange={myColor}/>
      </form>
+     <HeroSection/>
 
     </>
   );
