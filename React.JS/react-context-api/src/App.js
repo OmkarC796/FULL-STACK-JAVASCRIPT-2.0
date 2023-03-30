@@ -1,14 +1,22 @@
 import { useState, createContext } from "react";
-import {  } from "module";
+
 
 import  Navbar from "./components/Navbar";
 
 import './App.css';
 
 function App() {
-const [name, setname] = useState("");
+const [name, setName] = useState("");
 const [color, setColor] = useState("");
 
+
+const myname = (event) => {
+  setName(event.target.value);
+}
+
+const myColor = (event) => {
+  setColor(event.target.value)
+}
   return (
     <>
      <h1>Hello React</h1>
