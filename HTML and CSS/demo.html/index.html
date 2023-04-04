@@ -14,17 +14,19 @@
 </body>
 </html>
 <script>
-	var container = document.querySelector(".container")
+   var container = document.querySelector(".container");
    let btn =  document.querySelector(".btn");
    btn.addEventListener("click", myFun);
 
   function myFun(){
-	let name = document.createElement("h1")
-	name.innerText = "Omkar Chauhan"
+	let name = document.createElement("h1");
+	name.innerText = "Omkar Chauhan";
 	let mob = document.createElement("h2");
-    mob.innerText = "805245368"
-	let add = document.createElement("p")	
-    add.innerText = "Jaunpur, Uttar pradesh "
-	container.append(name, mob, add)
+    mob.innerText = "805245368";
+	let add = document.createElement("p");	
+    add.innerText = "Jaunpur, Uttar pradesh";
+	let add2 = document.createElement("p");
+	add2.innerText = "Marhi, Chandwak"
+	container.append(name, mob, add, add2);
   }
 </script>
