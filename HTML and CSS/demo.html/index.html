@@ -36,6 +36,13 @@
 
 let time = document.createElement("button");
 time.innerText = "Show time";
+time.addEventListener("click",timeClick)
+
+function timeClick(){
+	let h3 = document.createElement("h3");
+	h3.innerText = "Time:getHours()";
+	container.append(h3)
+}
 
 container.append(time)
 </script>
