@@ -40,7 +40,7 @@ time.addEventListener("click",timeClick)
 
 function timeClick(){
 	let h3 = document.createElement("h3");
-	h3.innerText = new Date();
+	h3.innerText = `Time: ${new Date()}`;
 	container.append(h3)
 }
 container.append(time)
