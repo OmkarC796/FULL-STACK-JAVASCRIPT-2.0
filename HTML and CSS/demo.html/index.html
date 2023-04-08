@@ -38,11 +38,14 @@
   }
 
 let time = document.createElement("button");
+const watchImg = document.createElement("img");
+watchImg.src = ""
 time.innerText = "Show time";
 time.addEventListener("click",timeClick)
 
 function timeClick(){
 	let h3 = document.createElement("h3");
+
 	h3.innerText = `Time: ${new Date()}`;
 	container.append(h3)
 }
