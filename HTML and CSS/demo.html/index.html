@@ -36,17 +36,18 @@
 	add2.style.color = "lightgreen"
 	container.append(name, mob, add, add2);
   }
-
+  let time = document.createElement("button");
   time.innerText = "Show time";
   time.addEventListener("click",timeClick)
   
   function timeClick(){
-	let time = document.createElement("button");
+	
 	const watchImg = document.createElement("img");
 	watchImg.src = "https://img.freepik.com/premium-vector/clock-vector-icon-white-background-vector-illustration_736051-174.jpg"
 	let h3 = document.createElement("h3");
 
 	h3.innerText = `Time: ${new Date()}`;
+	h3.style.color = "blue"
 	container.append(watchImg, h3)
 }
 
