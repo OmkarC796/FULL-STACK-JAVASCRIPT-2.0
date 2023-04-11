@@ -1,11 +1,14 @@
 import React from 'react'
 import UserDetails from "./UserDetails";
 
-import <Button></Button> from "./Button";
+import Button from "./Button";
 
 const UserCard = () => {
   return (
-    <div>UserCard</div>
+    <div>
+        <UserDetails/>
+        <Button/>
+    </div>
   )
 }
 
