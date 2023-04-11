@@ -3,6 +3,7 @@ import { useState, createContext } from "react";
 
 import  Navbar from "./Components/Navbar";
 import HeroSection from "./Components/HeroSection";
+import UserCard from "./Components/UserCard";
 
 import './App.css';
 
