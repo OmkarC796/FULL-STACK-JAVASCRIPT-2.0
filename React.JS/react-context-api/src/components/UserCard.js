@@ -7,7 +7,6 @@ const UserCard = () => {
   return (
     <div>
         <UserDetails/>
-        <UserCard/>
         <Button/>
     </div>
   )
